@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+
+
+.fontxaxis text {
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+.fontyaxis text {
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+
+
+.fontxaxis path,
+.fontxaxis line {
+  fill: none;
+  stroke: black;
+  shape-rendering: crispEdges;
+}
+.fontyaxis path,
+.fontyaxis line {
+  fill: none;
+  stroke: black;
+  shape-rendering: crispEdges;
+}
+
+</style>
+<body>
+<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+<script>
+
+var margin = {top: 100, right: 100, bottom: 100, left: 0},
+    width = 900 - margin.left - margin.right,
+    height = 800 - margin.top - margin.bottom;
+
+//var datesreps = ["2015-11-01","2015-09-01","2015-07-01"];
+var datesreps = ["2015-07-01","2015-09-01","2015-11-01"]
+var newdates = [];
+
+var colorArray = {};
+colorArray[-1] = "#FF0000"
+colorArray[1] = "#84AB14"
+
+for (var d in datesreps){
+  var months;
+  d1 = new Date(datesreps[d]);
+  d2 = new Date();
+  months = (d2.getFullYear() - d1.getFullYear()) * 12;
+  months -= d1.getMonth() + 1;
+  months += d2.getMonth();
+  months = months <= 0 ? 0 : months;
+  if(months < 1){
+              newdates.push(datesreps[d] + ' ' + " <-one-month");
+          }
+          else{
+              newdates.push(datesreps[d] + ' ' + months + "-months-old");
+          }
+  }
+
+newdates.splice(0, 0, " ");
+newdates.push("   ");
+
+var findings = ["   ",
+                "Hepatic Lesions",
+                "Lymphadenopathy",
+                "Adrenal Nodules",
+                "Retroperitoneal Edema",
+                "Small Volume Ascites",
+                "Soft Tissue Thickening",
+                "Vertebral Body",
+                "Metastasis",
+                "Hepatic Metastases",
+                "Adrenal Metastasis",
+                "     "]
+
+// create an svg container
+var svg = d3.select("body").append("svg")
+    .attr("width", (width + margin.left + margin.right))
+    .attr("height", (height + margin.top + margin.bottom))
+  .append("g")
+    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+// define the x and y scale
+var xRange = d3.scale.ordinal()
+    .domain(newdates)
+    .rangePoints([0, width]);
+
+var yRange = d3.scale.ordinal()
+    .domain(findings)
+    .rangePoints([0, height]);
+
+// define the x axis
+var xAxis = d3.svg.axis()
+    .scale(xRange)
+    .orient("top");
+
+// define the y axis
+var yAxis = d3.svg.axis()
+    .scale(yRange)
+    .orient("right");
+
+// draw the x axis
+svg.append("g")
+    .attr("class", "fontxaxis")
+    .call(xAxis)
+  .selectAll(".tick text")
+    .call(wrap, xRange.rangeBand())
+    .attr("transform", "translate(0,"+-50+")")
+
+
+
+function wrap(text, width) {
+  text.each(function() {
+    var text = d3.select(this),
+        words = text.text().split(/\s+/).reverse(),
+        word,
+        line = [],
+        lineNumber = 0,
+        lineHeight = 1.1, // ems
+        y = text.attr("y"),
+        dy = parseFloat(text.attr("dy")),
+        tspan = text.text(null).append("tspan").attr("x", 0).attr("y", y).attr("dy", dy + "em");
+    while (word = words.pop()) {
+      line.push(word);
+      tspan.text(line.join(" "));
+      if (tspan.node().getComputedTextLength() > width) {
+        line.pop();
+        tspan.text(line.join(" "));
+        line = [word];
+        tspan = text.append("tspan").attr("x", 0).attr("y", y).attr("dy", ++lineNumber * lineHeight + dy + "em").text(word);
+      }
+    }
+  });
+}
+
+// draw the y axis
+svg.append("g")
+    .attr("class", "fontyaxis")
+    .attr("transform", "translate(" + 750 + ",0)")
+    .call(yAxis);
+
+var repdata = [{
+  "x": "2015-11-01 3-months-old",
+  "y": "Lymphadenopathy",
+  "z":1
+}, {
+  "x": "2015-11-01 3-months-old",
+  "y": "Adrenal Nodules",
+  "z":1
+}, {
+  "x": "2015-11-01 3-months-old",
+  "y": "Retroperitoneal Edema",
+  "z":1
+}, {
+  "x": "2015-11-01 3-months-old",
+  "y": "Small Volume Ascites",
+  "z":1
+}, {
+  "x": "2015-11-01 3-months-old",
+  "y": "Soft Tissue Thickening",
+  "z":1
+}, {
+  "x": "2015-11-01 3-months-old",
+  "y": "Vertebral Body",
+  "z":1
+}, {
+  "x": "2015-11-01 3-months-old",
+  "y": "Metastasis",
+  "z":1
+},{
+  "x": "2015-09-01 5-months-old",
+  "y": "Hepatic Lesions",
+  "z":-1
+}, {
+  "x": "2015-09-01 5-months-old",
+  "y": "Lymphadenopathy",
+  "z":1
+}, {
+  "x": "2015-09-01 5-months-old",
+  "y": "Hepatic Metastases",
+  "z":1
+}, {
+  "x": "2015-09-01 5-months-old",
+  "y": "Adrenal Metastasis",
+  "z":1
+},{
+  "x": "2015-07-01 7-months-old",
+  "y": "Hepatic Lesions",
+  "z":-1
+},{
+  "x": "2015-07-01 7-months-old",
+  "y": "Lymphadenopathy",
+  "z":1
+},{
+  "x": "2015-07-01 7-months-old",
+  "y": "Hepatic Metastases",
+  "z":1
+},{
+  "x": "2015-07-01 7-months-old",
+  "y": "Adrenal Metastasis",
+  "z":1
+},
+  ];
+
+
+var rectw = 195
+var recth = 52
+
+        svg.selectAll("rect")
+               .data(repdata)
+               .enter()
+               .append("rect")
+               .attr("x", function(d, i) {
+                    return xRange(d.x);
+               })
+               .attr("y", function(d, i) {
+                    return yRange(d.y);
+               })
+               .attr("width", rectw)
+               .attr("height", recth)
+               .attr("transform", "translate(" + rectw*(-1)/2 + "," + recth*(-1)/2 + ")")
+               .attr("fill", function(d) {
+                    return colorArray[d.z]});
+               /*.on("mouseover", function(d) {
+
+                //Get this bar's x/y values, then augment for the tooltip
+                var xPosition = parseFloat(d3.select(this).attr("x")) + 50;
+                var yPosition = parseFloat(d3.select(this).attr("y")) - 10;
+
+                //Update the tooltip position and value
+                d3.select("#tooltip")
+                  .style("left", xPosition + "px")
+                  .style("top", yPosition + "px")
+                  .select("#value")
+                  .text(d[2]);
+
+                //Show the tooltip
+                d3.select("#tooltip").classed("hidden", false);
+
+                })
+               .on("mouseout", function() {
+
+                //Hide the tooltip
+                d3.select("#tooltip").classed("hidden", true);
+
+                });*/
+
+</script>
+</body>
+</html>
