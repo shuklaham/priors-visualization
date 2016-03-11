@@ -1,0 +1,65 @@
+1. Sentence in report ====> Mixed appearance of lung nodules. solid which may reflect treatment response. Continued follow-up advised
+
+[(u'Mixed', 'JJ'),
+ (u'appearance', 'NN'),
+ (u'lung', 'NN'),
+ (u'nodules', 'NNS'),
+ (u'solid', 'JJ'),
+ (u'treatment', 'NN'),
+ (u'response', 'NN'),
+ (u'follow-up', 'NN')]
+
+appearance =====> Multiple malformation syndrome with senile-like appearance (disorder)
+nodules =====> Slap nodules of wrist (disorder)
+treatment =====> Early latent syphilis, positive serology, negative cerebrospinal fluid, with relapse after treatment (disorder)
+
+Pairs =====>Mixed appearance
+
+
+Predicted from pairs of nouns and adjectives
+Single word analysis of appearance
+{u'disorder': 6,
+ u'finding': 129,
+ u'morphologic abnormality': 3,
+ u'observable entity': 99,
+ u'procedure': 3}
+
+
+
+
+
+
+Predicted from trios of nouns and adjectives
+
+
+George said- lung nodules [lungs]
+
+2. Sentence in report ====> Stable osseous metastases
+
+[(u'Stable', 'JJ'), (u'osseous', 'JJ'), (u'metastases', 'NNS')]
+
+
+Pairs =====>osseous metastases
+
+
+Predicted from pairs of nouns and adjectives
+Single word analysis of metastases
+{u'attribute': 2,
+ u'disorder': 4,
+ u'finding': 3,
+ u'observable entity': 3,
+ u'procedure': 3,
+ u's': 1,
+ u'tumor staging': 3}
+
+
+
+
+Trios =====>Stable osseous metastases
+
+
+Predicted from trios of nouns and adjectives
+
+
+George said- osseous metastases [bones]
+

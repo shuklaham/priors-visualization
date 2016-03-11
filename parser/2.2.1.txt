@@ -1,0 +1,644 @@
+1. Sentence in report ====> primary malignancy identified however given the distribution of metastatic disease
+
+[(u'primary', 'JJ'),
+ (u'malignancy', 'NN'),
+ (u'distribution', 'NN'),
+ (u'metastatic', 'JJ'),
+ (u'disease', 'NN')]
+
+primary =====> Primary (idiopathic) autoimmune hemolytic anemia (disorder)
+malignancy =====> Restrictive cardiomyopathy secondary to malignancy (disorder)
+disease =====> Diabetic renal disease (disorder)
+Pairs =====>primary malignancy
+Pairs =====>metastatic disease
+
+
+Predicted from pairs of nouns and adjectives
+Pair analysis of primary malignancy
+{u'disorder': 3}
+
+
+Pair analysis of metastatic disease
+{u'disorder': 6}
+
+
+
+
+
+
+Predicted from trios of nouns and adjectives
+
+
+George said- primary malignancy
+
+2. Sentence in report ====> Metastatic osseous disease with possible pathologic fracture
+
+[(u'Metastatic', 'NNP'),
+ (u'osseous', 'JJ'),
+ (u'disease', 'NN'),
+ (u'possible', 'JJ'),
+ (u'pathologic', 'JJ'),
+ (u'fracture', 'NN')]
+
+disease =====> Diabetic renal disease (disorder)
+pathologic =====> Priapism (disorder)
+fracture =====> Fracture of basilar portion of occipital bone (disorder)
+Pairs =====>osseous disease
+Pairs =====>pathologic fracture
+
+
+Predicted from pairs of nouns and adjectives
+Single word analysis of disease
+{u'AIN III': 1,
+ u'CDC': 1,
+ u'I': 1,
+ u'IA': 1,
+ u'IB': 1,
+ u'IC': 1,
+ u'TNM': 1,
+ u'X-linked steryl-sulfatase deficiency': 1,
+ u'acquired immunodeficiency syndrome': 5,
+ u'assessment scale': 20,
+ u'attribute': 9,
+ u'breast': 5,
+ u'congestive': 2,
+ u'disorder': 2587,
+ u'environment': 11,
+ u'event': 5,
+ u"except Paget's disease of bone": 1,
+ u'finding': 139,
+ u'greater than 50% debulking': 1,
+ u'morphologic abnormality': 43,
+ u'navigational concept': 23,
+ u'observable entity': 28,
+ u'occupation': 3,
+ u'organism': 77,
+ u'other than cholesterol': 1,
+ u'person': 1,
+ u'procedure': 123,
+ u'product': 7,
+ u'prostate': 1,
+ u'qualifier value': 10,
+ u'regime/therapy': 36,
+ u's': 2,
+ u'situation': 152,
+ u'specimen': 1,
+ u'spread to regional lymph nodes': 1,
+ u'substance': 21,
+ u'tumor staging': 2,
+ u'white blood cell': 3}
+
+
+Pair analysis of pathologic fracture
+{u'disorder': 1, u'morphologic abnormality': 2}
+
+
+
+
+Trios =====>possible pathologic fracture
+
+
+Predicted from trios of nouns and adjectives
+
+
+George said- metastatic osseous disease [bones] and - pathologic fracture [bones]
+
+3. Sentence in report ====> Metastatic disease within the thorax , abdomen and pelvis with extensive metastatic adenopathy , hepatic metastasis , bilateral adrenal metastasis
+
+[(u'Metastatic', 'JJ'),
+ (u'disease', 'NN'),
+ (u'thorax', 'NN'),
+ (u'abdomen', 'NNS'),
+ (u'pelvis', 'NN'),
+ (u'extensive', 'JJ'),
+ (u'metastatic', 'JJ'),
+ (u'adenopathy', 'NN'),
+ (u'hepatic', 'JJ'),
+ (u'metastasis', 'NN'),
+ (u'bilateral', 'JJ'),
+ (u'adrenal', 'JJ'),
+ (u'metastasis', 'NN')]
+
+disease =====> Diabetic renal disease (disorder)
+thorax =====> Neoplasm of peripheral nerves of thorax (disorder)
+abdomen =====> Neoplasm of peripheral nerves of abdomen (disorder)
+pelvis =====> Neoplasm of renal pelvis (disorder)
+adenopathy =====> Secondary syphilitic adenopathy (disorder)
+hepatic =====> Neoplasm of hepatic flexure of colon (disorder)
+adrenal =====> Neoplasm of adrenal gland (disorder)
+Pairs =====>Metastatic disease
+Pairs =====>metastatic adenopathy
+Pairs =====>hepatic metastasis
+Pairs =====>adrenal metastasis
+
+
+Predicted from pairs of nouns and adjectives
+Pair analysis of Metastatic disease
+{u'disorder': 6}
+
+
+Single word analysis of adenopathy
+{u'disorder': 4}
+
+
+Pair analysis of hepatic metastasis
+{u'IV': 1, u'disorder': 1}
+
+
+Pair analysis of adrenal metastasis
+{u'adrenal cortical carcinoma': 1, u'disorder': 4, u'finding': 1}
+
+
+
+
+Trios =====>extensive metastatic adenopathy
+Trios =====>bilateral adrenal metastasis
+
+
+Predicted from trios of nouns and adjectives
+
+
+George said- metastatic disease [thorax, abdomen, pelvis] and - metastatic adenopathy [lymph nodes] and - hepatic metastasis [liver] and - (bilateral) adrenal metastasis [adrenal]
+
+4. Sentence in report ====> highly suspicious for abdominal malignancy
+
+[(u'suspicious', 'JJ'), (u'abdominal', 'JJ'), (u'malignancy', 'NN')]
+
+abdominal =====> Neoplasm of abdominal esophagus (disorder)
+malignancy =====> Restrictive cardiomyopathy secondary to malignancy (disorder)
+Pairs =====>abdominal malignancy
+
+
+Predicted from pairs of nouns and adjectives
+Pair analysis of abdominal malignancy
+{u'disorder': 1}
+
+
+
+
+
+
+Predicted from trios of nouns and adjectives
+
+
+George said
+
+5. Sentence in report ====> Mild collapse of the L1 vertebral body and mild sclerosis of the S1
+
+[(u'Mild', 'NNP'),
+ (u'collapse', 'NN'),
+ (u'L1', 'NNP'),
+ (u'vertebral', 'JJ'),
+ (u'body', 'NN'),
+ (u'mild', 'JJ'),
+ (u'sclerosis', 'NN'),
+ (u'S1', 'NNP')]
+
+mild =====> Panic disorder with agoraphobia, severe agoraphobic avoidance AND mild panic attacks (disorder)
+collapse =====> Collapse of external ear canal (disorder)
+body =====> Neoplasm of body of stomach (disorder)
+mild =====> Panic disorder with agoraphobia, severe agoraphobic avoidance AND mild panic attacks (disorder)
+sclerosis =====> Tuberous sclerosis syndrome (disorder)
+Pairs =====>vertebral body
+Pairs =====>mild sclerosis
+
+
+Predicted from pairs of nouns and adjectives
+Pair analysis of vertebral body
+{u'body structure': 144,
+ u'combined site': 4,
+ u'disorder': 2,
+ u'finding': 3,
+ u'lung': 1,
+ u'physical object': 4,
+ u'procedure': 6,
+ u'surface region': 1}
+
+
+Single word analysis of sclerosis
+{u'assessment scale': 1,
+ u'disorder': 113,
+ u'environment': 1,
+ u'finding': 4,
+ u'morphologic abnormality': 11,
+ u'observable entity': 2,
+ u'physical object': 1,
+ u'procedure': 1,
+ u'qualifier value': 1,
+ u'situation': 5}
+
+
+
+
+
+
+Predicted from trios of nouns and adjectives
+
+
+George said
+
+6. Sentence in report ====> Bilateral pleural effusions
+
+[(u'Bilateral', 'JJ'), (u'pleural', 'JJ'), (u'effusions', 'NNS')]
+
+Pairs =====>pleural effusions
+
+
+Predicted from pairs of nouns and adjectives
+Single word analysis of effusions
+{u'morphologic abnormality': 1}
+
+
+
+
+Trios =====>Bilateral pleural effusions
+
+
+Predicted from trios of nouns and adjectives
+
+
+George said- (bilateral) pleural effusions [lungs]
+
+7. Sentence in report ====> Mild expansion and filling defect within the left external iliac vein , suspicious for deep venous thrombosis
+
+[(u'Mild', 'JJ'),
+ (u'expansion', 'NN'),
+ (u'filling', 'NN'),
+ (u'defect', 'NN'),
+ (u'left', 'JJ'),
+ (u'external', 'JJ'),
+ (u'iliac', 'NN'),
+ (u'vein', 'NN'),
+ (u'suspicious', 'JJ'),
+ (u'deep', 'JJ'),
+ (u'venous', 'JJ'),
+ (u'thrombosis', 'NN')]
+
+mild =====> Panic disorder with agoraphobia, severe agoraphobic avoidance AND mild panic attacks (disorder)
+defect =====> Insulin biosynthesis defect (disorder)
+left =====> Left gastric lymphadenopathy (disorder)
+external =====> External iliac lymphadenopathy (disorder)
+iliac =====> Iliac lymphadenopathy (disorder)
+deep =====> Deep lymphadenopathy (disorder)
+thrombosis =====> Thrombosis complicating pregnancy AND/OR puerperium (disorder)
+Pairs =====>Mild expansion
+Pairs =====>external iliac
+Pairs =====>venous thrombosis
+
+
+Predicted from pairs of nouns and adjectives
+Single word analysis of expansion
+{u'body structure': 3,
+ u'disorder': 1,
+ u'finding': 8,
+ u'morphologic abnormality': 1,
+ u'observable entity': 3,
+ u'physical object': 10,
+ u'procedure': 6,
+ u'qualifier value': 1,
+ u'regime/therapy': 8}
+
+
+Pair analysis of external iliac
+{u'body structure': 22, u'disorder': 11, u'procedure': 21}
+
+
+Pair analysis of venous thrombosis
+{u'disorder': 69, u'procedure': 2, u'situation': 3}
+
+
+
+
+Trios =====>left external iliac
+Trios =====>external iliac vein
+Trios =====>deep venous thrombosis
+
+
+Predicted from trios of nouns and adjectives
+deep venous thrombosis =====> Deep venous thrombosis (disorder)
+
+
+George said- filling defect [vein] and - deep venous thrombosis [vein]
+
+1. Sentence in report ====> primary malignancy identified however given the distribution of metastatic disease
+
+[(u'primary', 'JJ'),
+ (u'malignancy', 'NN'),
+ (u'distribution', 'NN'),
+ (u'metastatic', 'JJ'),
+ (u'disease', 'NN')]
+
+primary =====> Primary (idiopathic) autoimmune hemolytic anemia (disorder)
+malignancy =====> Restrictive cardiomyopathy secondary to malignancy (disorder)
+disease =====> Diabetic renal disease (disorder)
+Pairs =====>primary malignancy
+Pairs =====>metastatic disease
+
+
+Predicted from pairs of nouns and adjectives
+Pair analysis of primary malignancy
+{u'disorder': 3}
+
+
+Pair analysis of metastatic disease
+{u'disorder': 6}
+
+
+
+
+
+
+Predicted from trios of nouns and adjectives
+
+
+George said- primary malignancy
+
+2. Sentence in report ====> Metastatic osseous disease with possible pathologic fracture
+
+[(u'Metastatic', 'NNP'),
+ (u'osseous', 'JJ'),
+ (u'disease', 'NN'),
+ (u'possible', 'JJ'),
+ (u'pathologic', 'JJ'),
+ (u'fracture', 'NN')]
+
+disease =====> Diabetic renal disease (disorder)
+pathologic =====> Priapism (disorder)
+fracture =====> Fracture of basilar portion of occipital bone (disorder)
+Pairs =====>osseous disease
+Pairs =====>pathologic fracture
+
+
+Predicted from pairs of nouns and adjectives
+Single word analysis of disease
+{u'AIN III': 1,
+ u'CDC': 1,
+ u'I': 1,
+ u'IA': 1,
+ u'IB': 1,
+ u'IC': 1,
+ u'TNM': 1,
+ u'X-linked steryl-sulfatase deficiency': 1,
+ u'acquired immunodeficiency syndrome': 5,
+ u'assessment scale': 20,
+ u'attribute': 9,
+ u'breast': 5,
+ u'congestive': 2,
+ u'disorder': 2587,
+ u'environment': 11,
+ u'event': 5,
+ u"except Paget's disease of bone": 1,
+ u'finding': 139,
+ u'greater than 50% debulking': 1,
+ u'morphologic abnormality': 43,
+ u'navigational concept': 23,
+ u'observable entity': 28,
+ u'occupation': 3,
+ u'organism': 77,
+ u'other than cholesterol': 1,
+ u'person': 1,
+ u'procedure': 123,
+ u'product': 7,
+ u'prostate': 1,
+ u'qualifier value': 10,
+ u'regime/therapy': 36,
+ u's': 2,
+ u'situation': 152,
+ u'specimen': 1,
+ u'spread to regional lymph nodes': 1,
+ u'substance': 21,
+ u'tumor staging': 2,
+ u'white blood cell': 3}
+
+
+Pair analysis of pathologic fracture
+{u'disorder': 1, u'morphologic abnormality': 2}
+
+
+
+
+Trios =====>possible pathologic fracture
+
+
+Predicted from trios of nouns and adjectives
+
+
+George said- metastatic osseous disease [bones] and - pathologic fracture [bones]
+
+3. Sentence in report ====> Metastatic disease within the thorax , abdomen and pelvis with extensive metastatic adenopathy , hepatic metastasis , bilateral adrenal metastasis
+
+[(u'Metastatic', 'JJ'),
+ (u'disease', 'NN'),
+ (u'thorax', 'NN'),
+ (u'abdomen', 'NNS'),
+ (u'pelvis', 'NN'),
+ (u'extensive', 'JJ'),
+ (u'metastatic', 'JJ'),
+ (u'adenopathy', 'NN'),
+ (u'hepatic', 'JJ'),
+ (u'metastasis', 'NN'),
+ (u'bilateral', 'JJ'),
+ (u'adrenal', 'JJ'),
+ (u'metastasis', 'NN')]
+
+disease =====> Diabetic renal disease (disorder)
+thorax =====> Neoplasm of peripheral nerves of thorax (disorder)
+abdomen =====> Neoplasm of peripheral nerves of abdomen (disorder)
+pelvis =====> Neoplasm of renal pelvis (disorder)
+adenopathy =====> Secondary syphilitic adenopathy (disorder)
+hepatic =====> Neoplasm of hepatic flexure of colon (disorder)
+adrenal =====> Neoplasm of adrenal gland (disorder)
+Pairs =====>Metastatic disease
+Pairs =====>metastatic adenopathy
+Pairs =====>hepatic metastasis
+Pairs =====>adrenal metastasis
+
+
+Predicted from pairs of nouns and adjectives
+Pair analysis of Metastatic disease
+{u'disorder': 6}
+
+
+Single word analysis of adenopathy
+{u'disorder': 4}
+
+
+Pair analysis of hepatic metastasis
+{u'IV': 1, u'disorder': 1}
+
+
+Pair analysis of adrenal metastasis
+{u'adrenal cortical carcinoma': 1, u'disorder': 4, u'finding': 1}
+
+
+
+
+Trios =====>extensive metastatic adenopathy
+Trios =====>bilateral adrenal metastasis
+
+
+Predicted from trios of nouns and adjectives
+
+
+George said- metastatic disease [thorax, abdomen, pelvis] and - metastatic adenopathy [lymph nodes] and - hepatic metastasis [liver] and - (bilateral) adrenal metastasis [adrenal]
+
+4. Sentence in report ====> highly suspicious for abdominal malignancy
+
+[(u'suspicious', 'JJ'), (u'abdominal', 'JJ'), (u'malignancy', 'NN')]
+
+abdominal =====> Neoplasm of abdominal esophagus (disorder)
+malignancy =====> Restrictive cardiomyopathy secondary to malignancy (disorder)
+Pairs =====>abdominal malignancy
+
+
+Predicted from pairs of nouns and adjectives
+Pair analysis of abdominal malignancy
+{u'disorder': 1}
+
+
+
+
+
+
+Predicted from trios of nouns and adjectives
+
+
+George said
+
+5. Sentence in report ====> Mild collapse of the L1 vertebral body and mild sclerosis of the S1
+
+[(u'Mild', 'NNP'),
+ (u'collapse', 'NN'),
+ (u'L1', 'NNP'),
+ (u'vertebral', 'JJ'),
+ (u'body', 'NN'),
+ (u'mild', 'JJ'),
+ (u'sclerosis', 'NN'),
+ (u'S1', 'NNP')]
+
+mild =====> Panic disorder with agoraphobia, severe agoraphobic avoidance AND mild panic attacks (disorder)
+collapse =====> Collapse of external ear canal (disorder)
+body =====> Neoplasm of body of stomach (disorder)
+mild =====> Panic disorder with agoraphobia, severe agoraphobic avoidance AND mild panic attacks (disorder)
+sclerosis =====> Tuberous sclerosis syndrome (disorder)
+Pairs =====>vertebral body
+Pairs =====>mild sclerosis
+
+
+Predicted from pairs of nouns and adjectives
+Pair analysis of vertebral body
+{u'body structure': 144,
+ u'combined site': 4,
+ u'disorder': 2,
+ u'finding': 3,
+ u'lung': 1,
+ u'physical object': 4,
+ u'procedure': 6,
+ u'surface region': 1}
+
+
+Single word analysis of sclerosis
+{u'assessment scale': 1,
+ u'disorder': 113,
+ u'environment': 1,
+ u'finding': 4,
+ u'morphologic abnormality': 11,
+ u'observable entity': 2,
+ u'physical object': 1,
+ u'procedure': 1,
+ u'qualifier value': 1,
+ u'situation': 5}
+
+
+
+
+
+
+Predicted from trios of nouns and adjectives
+
+
+George said
+
+6. Sentence in report ====> Bilateral pleural effusions
+
+[(u'Bilateral', 'JJ'), (u'pleural', 'JJ'), (u'effusions', 'NNS')]
+
+Pairs =====>pleural effusions
+
+
+Predicted from pairs of nouns and adjectives
+Single word analysis of effusions
+{u'morphologic abnormality': 1}
+
+
+
+
+Trios =====>Bilateral pleural effusions
+
+
+Predicted from trios of nouns and adjectives
+
+
+George said- (bilateral) pleural effusions [lungs]
+
+7. Sentence in report ====> Mild expansion and filling defect within the left external iliac vein , suspicious for deep venous thrombosis
+
+[(u'Mild', 'JJ'),
+ (u'expansion', 'NN'),
+ (u'filling', 'NN'),
+ (u'defect', 'NN'),
+ (u'left', 'JJ'),
+ (u'external', 'JJ'),
+ (u'iliac', 'NN'),
+ (u'vein', 'NN'),
+ (u'suspicious', 'JJ'),
+ (u'deep', 'JJ'),
+ (u'venous', 'JJ'),
+ (u'thrombosis', 'NN')]
+
+mild =====> Panic disorder with agoraphobia, severe agoraphobic avoidance AND mild panic attacks (disorder)
+defect =====> Insulin biosynthesis defect (disorder)
+left =====> Left gastric lymphadenopathy (disorder)
+external =====> External iliac lymphadenopathy (disorder)
+iliac =====> Iliac lymphadenopathy (disorder)
+deep =====> Deep lymphadenopathy (disorder)
+thrombosis =====> Thrombosis complicating pregnancy AND/OR puerperium (disorder)
+Pairs =====>Mild expansion
+Pairs =====>external iliac
+Pairs =====>venous thrombosis
+
+
+Predicted from pairs of nouns and adjectives
+Single word analysis of expansion
+{u'body structure': 3,
+ u'disorder': 1,
+ u'finding': 8,
+ u'morphologic abnormality': 1,
+ u'observable entity': 3,
+ u'physical object': 10,
+ u'procedure': 6,
+ u'qualifier value': 1,
+ u'regime/therapy': 8}
+
+
+Pair analysis of external iliac
+{u'body structure': 22, u'disorder': 11, u'procedure': 21}
+
+
+Pair analysis of venous thrombosis
+{u'disorder': 69, u'procedure': 2, u'situation': 3}
+
+
+
+
+Trios =====>left external iliac
+Trios =====>external iliac vein
+Trios =====>deep venous thrombosis
+
+
+Predicted from trios of nouns and adjectives
+deep venous thrombosis =====> Deep venous thrombosis (disorder)
+
+
+George said- filling defect [vein] and - deep venous thrombosis [vein]
+

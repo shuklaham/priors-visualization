@@ -1,0 +1,247 @@
+1. Sentence in report ====> hydronephrosis
+
+[(u'hydronephrosis', 'NN')]
+
+hydronephrosis =====> Erythrocytosis due to hydronephrosis (disorder)
+
+
+Predicted from pairs of nouns and adjectives
+
+
+
+
+Predicted from trios of nouns and adjectives
+
+
+George said- hydronephrosis [kidney]
+
+2. Sentence in report ====> Status post cystectomy with ileal conduit. Bilateral nephroureteral stents in good position exiting through the ileal conduit.
+
+[(u'Status', 'NNP'),
+ (u'post', 'NN'),
+ (u'cystectomy', 'NN'),
+ (u'ileal', 'JJ'),
+ (u'conduit', 'NN'),
+ (u'Bilateral', 'JJ'),
+ (u'nephroureteral', 'JJ'),
+ (u'stents', 'NNS'),
+ (u'good', 'JJ'),
+ (u'position', 'NN'),
+ (u'ileal', 'JJ'),
+ (u'conduit', 'NN')]
+
+post =====> Post-infectious cold agglutinin disease (disorder)
+Pairs =====>ileal conduit
+Pairs =====>nephroureteral stents
+Pairs =====>good position
+Pairs =====>ileal conduit
+
+
+Predicted from pairs of nouns and adjectives
+Pair analysis of ileal conduit
+{u'morphologic abnormality': 2,
+ u'physical object': 1,
+ u'procedure': 9,
+ u'regime/therapy': 1}
+
+
+Single word analysis of stents
+{u'procedure': 2}
+
+
+Pair analysis of good position
+{u'finding': 1}
+
+
+Pair analysis of ileal conduit
+{u'morphologic abnormality': 2,
+ u'physical object': 1,
+ u'procedure': 9,
+ u'regime/therapy': 1}
+
+
+
+
+Trios =====>Bilateral nephroureteral stents
+
+
+Predicted from trios of nouns and adjectives
+
+
+George said- cystectomy [bladder]
+
+3. Sentence in report ====> Focal fluid-air collection adjacent to the enteroenteric anastomosis in the lower central abdomen , measuring 3.6 x 3.1 cm , possibly representing contained leak , seroma or abscess
+
+[(u'Focal', 'JJ'),
+ (u'fluid-air', 'JJ'),
+ (u'collection', 'NN'),
+ (u'adjacent', 'NN'),
+ (u'enteroenteric', 'JJ'),
+ (u'anastomosis', 'NN'),
+ (u'lower', 'JJR'),
+ (u'central', 'JJ'),
+ (u'abdomen', 'NNS'),
+ (u'x', 'JJ'),
+ (u'cm', 'NN'),
+ (u'leak', 'NN'),
+ (u'seroma', 'NN'),
+ (u'abscess', 'NN')]
+
+focal =====> Focal choroiditis (disorder)
+enteroenteric =====> Enteroenteric fistula (disorder)
+lower =====> Neoplasm of lower third of esophagus (disorder)
+central =====> Neoplasm of central portion of female breast (disorder)
+abdomen =====> Neoplasm of peripheral nerves of abdomen (disorder)
+x =====> Fragile X syndrome (disorder)
+leak =====> Dyshormonogenetic goiter AND iodide leak (disorder)
+abscess =====> Abscess of hip (disorder)
+Pairs =====>fluid-air collection
+Pairs =====>enteroenteric anastomosis
+Pairs =====>central abdomen
+
+
+Predicted from pairs of nouns and adjectives
+Pair analysis of fluid-air collection
+{u'disorder': 1,
+ u'observable entity': 1,
+ u'physical object': 5,
+ u'procedure': 5}
+
+
+Single word analysis of anastomosis
+{u'attribute': 14,
+ u'body structure': 7,
+ u'disorder': 23,
+ u'finding': 2,
+ u'morphologic abnormality': 18,
+ u'physical object': 13,
+ u'procedure': 562,
+ u'qualifier value': 19,
+ u'situation': 10,
+ u'substance': 2}
+
+
+Pair analysis of central abdomen
+{u'body structure': 2}
+
+
+
+
+Trios =====>Focal fluid-air collection
+Trios =====>fluid-air collection adjacent
+Trios =====>lower central abdomen
+
+
+Predicted from trios of nouns and adjectives
+
+
+George said- ileal conduit [bladder]
+
+4. Sentence in report ====> Small abdominopelvic ascites
+
+[(u'Small', 'JJ'), (u'abdominopelvic', 'NN'), (u'ascites', 'NNS')]
+
+small =====> Neoplasm of small intestine (disorder)
+ascites =====> Tuberculous ascites (disorder)
+Pairs =====>Small abdominopelvic
+
+
+Predicted from pairs of nouns and adjectives
+Single word analysis of abdominopelvic
+{u'body structure': 2, u'disorder': 1, u'procedure': 3}
+
+
+
+
+Trios =====>Small abdominopelvic ascites
+
+
+Predicted from trios of nouns and adjectives
+
+
+George said- nephroureteral stents [kidney, ureter]
+
+5. Sentence in report ====> Possible non-rim-enhancing loculated fluid collection anterior to the left psoas measuring approximately 4.8 x 2.9 cm possibly seroma or lymphocele
+
+[(u'Possible', 'JJ'),
+ (u'non-rim-enhancing', 'JJ'),
+ (u'fluid', 'NN'),
+ (u'collection', 'NN'),
+ (u'left', 'JJ'),
+ (u'psoas', 'NN'),
+ (u'x', 'JJ'),
+ (u'cm', 'NN')]
+
+left =====> Left gastric lymphadenopathy (disorder)
+x =====> Fragile X syndrome (disorder)
+Pairs =====>left psoas
+
+
+Predicted from pairs of nouns and adjectives
+Single word analysis of psoas
+{u'body structure': 12, u'disorder': 3, u'finding': 3, u'procedure': 4}
+
+
+
+
+
+
+Predicted from trios of nouns and adjectives
+
+
+George said- fluid-air collection -> (leak, seroma, abscss)
+
+6. Sentence in report ====> Left obturator internus and large centrally low dense hyperdense left node , likely necrotic lymphadenopathy
+
+[(u'Left', 'NNP'),
+ (u'obturator', 'NN'),
+ (u'internus', 'NN'),
+ (u'large', 'JJ'),
+ (u'low', 'JJ'),
+ (u'dense', 'NN'),
+ (u'hyperdense', 'NN'),
+ (u'node', 'NN'),
+ (u'likely', 'JJ'),
+ (u'necrotic', 'JJ'),
+ (u'lymphadenopathy', 'NN')]
+
+left =====> Left gastric lymphadenopathy (disorder)
+obturator =====> Obturator lymphadenopathy (disorder)
+large =====> Neoplasm of large intestine (disorder)
+low =====> Acute hyponatremia (disorder)
+node =====> Lymphadenopathy of lymph node ring of cardia of stomach (disorder)
+necrotic =====> Gangrenous pneumonia (disorder)
+lymphadenopathy =====> Superficial lymphadenopathy (disorder)
+Pairs =====>low dense
+Pairs =====>necrotic lymphadenopathy
+
+
+Predicted from pairs of nouns and adjectives
+Single word analysis of dense
+{u'body structure': 2,
+ u'cell structure': 7,
+ u'disorder': 11,
+ u'finding': 3,
+ u'morphologic abnormality': 4,
+ u'qualifier value': 1,
+ u'substance': 2}
+
+
+Single word analysis of lymphadenopathy
+{u'disorder': 172,
+ u'morphologic abnormality': 2,
+ u'procedure': 3,
+ u'situation': 4}
+
+
+
+
+Trios =====>low dense hyperdense
+Trios =====>likely necrotic lymphadenopathy
+
+
+Predicted from trios of nouns and adjectives
+
+
+George said- abdominopelvic ascites [peritoneum]
+
