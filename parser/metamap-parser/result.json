@@ -1,0 +1,73 @@
+[
+	{
+		"finding": "Disease progression NOS", 
+		"context": "", 
+		"sentence": "Progression of disease with increase in lymphadenopathy and bilateral adrenal nodules", 
+		"date": "11-01-2015", 
+		"colorCode": 1
+	}, 
+	{
+		"finding": "LYMPHADENOPATHY", 
+		"context": "Increase", 
+		"sentence": "Progression of disease with increase in lymphadenopathy and bilateral adrenal nodules", 
+		"date": "11-01-2015", 
+		"colorCode": 1
+	}, 
+	{
+		"finding": "Nodules", 
+		"context": "BILATERAL", 
+		"sentence": "Progression of disease with increase in lymphadenopathy and bilateral adrenal nodules", 
+		"date": "11-01-2015", 
+		"colorCode": 1
+	}, 
+	{
+		"finding": "Retroperitoneal edema", 
+		"context": "", 
+		"sentence": "retroperitoneal edema , new small left effusion and new small-volume ascites. Soft tissue thickening along the undersurface of the left diaphragm is stable from the recent exam but increased from older studies and suspicious for peritoneal tumor", 
+		"date": "11-01-2015", 
+		"colorCode": 1
+	}, 
+	{
+		"finding": "Effusion", 
+		"context": "LEFT", 
+		"sentence": "retroperitoneal edema , new small left effusion and new small-volume ascites. Soft tissue thickening along the undersurface of the left diaphragm is stable from the recent exam but increased from older studies and suspicious for peritoneal tumor", 
+		"date": "11-01-2015", 
+		"colorCode": 1
+	}, 
+	{
+		"finding": "ASCITES", 
+		"context": "", 
+		"sentence": "retroperitoneal edema , new small left effusion and new small-volume ascites. Soft tissue thickening along the undersurface of the left diaphragm is stable from the recent exam but increased from older studies and suspicious for peritoneal tumor", 
+		"date": "11-01-2015", 
+		"colorCode": 1
+	}, 
+	{
+		"finding": "Thickening", 
+		"context": "SOFT TISSUE", 
+		"sentence": "retroperitoneal edema , new small left effusion and new small-volume ascites. Soft tissue thickening along the undersurface of the left diaphragm is stable from the recent exam but increased from older studies and suspicious for peritoneal tumor", 
+		"date": "11-01-2015", 
+		"colorCode": 1
+	}, 
+	{
+		"finding": "Peritoneal Tumor", 
+		"context": "", 
+		"sentence":	"retroperitoneal edema , new small left effusion and new small-volume ascites. Soft tissue thickening along the undersurface of the left diaphragm is stable from the recent exam but increased from older studies and suspicious for peritoneal tumor", 
+		"date": "11-01-2015", 
+		"colorCode": 1
+	}, 
+	{
+		"finding": "Sclerosis", 
+		"context": "", 
+		"sentence": "Increase in subtle sclerosis in the superior half of the L2 vertebral body suspicious for metastasis", 
+		"date": "11-01-2015", 
+		"colorCode": 1
+	}, 
+	{
+		"finding": "metastasis", 
+		"context": "", 
+		"sentence": 
+		"Increase in subtle sclerosis in the superior half of the L2 vertebral body suspicious for metastasis", 
+		"date": "11-01-2015", 
+		"colorCode": 1
+	}
+]

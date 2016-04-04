@@ -113,17 +113,19 @@ class SubprocessBackend(MetaMap):
                 command.append('--sldiID')
             else:
                 command.append('--sldi')
-            command.append(input_file.name)
-            command.append(output_file.name)
+
 
             metamap_process = subprocess.Popen(command, stdout=subprocess.PIPE)
+
             while metamap_process.poll() is None:
                 stdout = metamap_process.stdout.readline()
                 if 'ERROR' in stdout:
                     metamap_process.terminate()
                     error = stdout.rstrip()
-                
-            output = output_file.read()
+
+            phrases = []
+            #output = output_file.read()
+            #phrases = getFindings(output_file)
         finally:       
             if sentences is not None:
                 os.remove(input_file.name)
@@ -131,5 +133,5 @@ class SubprocessBackend(MetaMap):
                 input_file.close()
             os.remove(output_file.name)
 
-        concepts = Corpus.load(output.splitlines())
-        return (concepts, error)
+        #concepts = Corpus.load(output.splitlines())
+        return (phrases, error)

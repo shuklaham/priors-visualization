@@ -10,15 +10,19 @@ along the undersurface of the left diaphragm is stable from the recent exam but 
 studies and suspicious for peritoneal tumor.
 3. Increase in subtle sclerosis in the superior half of the L2 vertebral body suspicious for metastasis
 '''
-from getSentences import getSentences
+import json
 from pymetamap import MetaMap
-
+import subprocess
+from getMetaMapResults import getMetamapResults
 
 def jsonProcessor(dt,data):
     neg_pos = ['impression_negated','impression_positive']
     findingsList = []
     point = {}
     sentenceListwithnumbers = []
+    negativePhrases = []
+    positivePhrases = []
+    completeList = []
     positiveSentenceList = []
     negativeSentenceList = []
     presence_negatives = True
@@ -57,11 +61,25 @@ def jsonProcessor(dt,data):
                 start = pos[i]+2
                 positiveSentenceList.append(s[start:])
 
-    mm = MetaMap.get_instance('/home/shukla/Documents/WMC/backendStuff/MetaMap/public_mm/bin/metamap')
+    #mm = MetaMap.get_instance('/home/shukla/Documents/WMC/backendStuff/MetaMap/public_mm/bin/metamap')
+    if presence_negatives:
+        negativeSentenceList = [y.strip() for y in [x.encode("ascii").strip() for x in negativeSentenceList]]
+        negativePhrases = getMetamapResults(negativeSentenceList)
+        for i in range(len(negativePhrases)):
+            negativePhrases[i]['date'] = dt
+            negativePhrases[i]['colorCode'] = -1
+    if presence_positives:
+        positiveSentenceList = [y.strip() for y in [x.encode("ascii").strip() for x in positiveSentenceList]]
+        positivePhrases = getMetamapResults(positiveSentenceList)
+        for i in range(len(positivePhrases)):
+            positivePhrases[i]['date'] = dt
+            positivePhrases[i]['colorCode'] = 1
 
 
 
 
-
-
+    completeList = negativePhrases + positivePhrases
+    with open('result.json', 'w') as fp:
+        json.dump(completeList, fp)
+    return completeList
 
