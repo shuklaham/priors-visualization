@@ -1,5 +1,8 @@
 
 import subprocess
+import json as simplejson
+print(simplejson.dumps("\"foo\bar"))
+
 
 metaMapBinDir = '/home/shukla/Documents/WMC/backendStuff/MetaMap/public_mm/bin/'
 wsdDir = metaMapBinDir + 'wsdserverctl'

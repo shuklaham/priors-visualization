@@ -9,20 +9,16 @@ import sys
 from jsonProcessor import jsonProcessor
 from subprocess import check_output
 from collections import OrderedDict
+import time
+import re
 
-metaMapBinDir = '/home/shukla/Documents/WMC/backendStuff/MetaMap/public_mm/bin/'
-wsdDir = metaMapBinDir + 'wsdserverctl'
-skmDir = metaMapBinDir + 'skrmedpostctl'
+def repl_func(m):
+    """process regular expression match groups for word upper-casing problem"""
+    return m.group(1) + m.group(2).upper()
 
-# start wsd
-wsdOutput = subprocess.Popen([wsdDir, 'start'], stdout=subprocess.PIPE)
-#wsdOutput = subprocess.check_output([wsdDir, 'start'])
 
-# start skm
-skmOutput = subprocess.Popen([skmDir, 'start'], stdout=subprocess.PIPE)
-#skmOutput = subprocess.check_output([skmDir, 'start'])
-#print skmOutput
-
+start_time = time.time()
+# Initial settings
 # getting data
 dataDir = '/home/shukla/Documents/WMC/backendStuff/MetaMap/python-parser'
 #dates
@@ -33,11 +29,31 @@ j1 = json.loads(open('data/11-01-2015.json').read())
 j2 = json.loads(open('data/09-01-2015.json').read())
 j3 = json.loads(open('data/07-01-2015.json').read())
 
+metaMapBinDir = '/home/shukla/Documents/WMC/backendStuff/MetaMap/public_mm/bin/'
+
+#Things start here
+
+
+ps = subprocess.Popen(('ps', '-ef'), stdout=subprocess.PIPE)
+output = subprocess.check_output(('grep', 'java'), stdin=ps.stdout)
+if 'taggerserver' not in output:
+
+	skrDir = metaMapBinDir + 'skrmedpostctl'
+	#wsdDir = metaMapBinDir + 'wsdserverctl'
+	skrOutput = subprocess.Popen([skrDir, 'start'], stdout=subprocess.PIPE)
+	#skmOutput = subprocess.check_output([skmDir, 'start'])
+	#print skmOutput
+
+# start wsd
+#wsdOutput = subprocess.Popen([wsdDir, 'start'], stdout=subprocess.PIPE)
+#wsdOutput = subprocess.check_output([wsdDir, 'start'])
+
+
 jsonObjects = [j1,j2,j3]
 
 commonFindings = set()
-processedJsonDict = {}
-findingsDict = {}
+processedJsonDict = OrderedDict()
+findingsDict = OrderedDict()
 
 '''
 processedJsonDict[date] looks like list following [{X - date, Y - Finding, Color code - (-1,0,1), Sentence}
@@ -45,23 +61,35 @@ processedJsonDict[date] looks like list following [{X - date, Y - Finding, Color
 {X - date, Y - Finding, Color code, Sentence}......]
 '''
 for i in range(len(dates)):
-	processedJsonDict[dates[i]] = jsonProcessor(dates[i],jsonObjects[i])
+	processedJsonDict[dates[i]] = jsonProcessor(dates[i],jsonObjects[i],metaMapBinDir)
 
 #closes server
-wsdDir = metaMapBinDir + 'wsdserverctl'
-skmDir = metaMapBinDir + 'skrmedpostctl'
+#metaMapBinDir = '/home/shukla/Documents/WMC/backendStuff/MetaMap/public_mm/bin/'
+#wsdDir = metaMapBinDir + 'wsdserverctl'
+#skrDir = metaMapBinDir + 'skrmedpostctl'
 
 # stop wsd
-wsdOutput = subprocess.Popen([wsdDir, 'stop'], stdout=subprocess.PIPE)
+#wsdOutput = subprocess.Popen([wsdDir, 'stop'], stdout=subprocess.PIPE)
 #wsdOutput = subprocess.check_output([wsdDir, 'start'])
 
 # stop skm
-skmOutput = subprocess.Popen([skmDir, 'stop'], stdout=subprocess.PIPE)
+skrOutput = subprocess.Popen([skrDir, 'stop'], stdout=subprocess.PIPE)
 #skmOutput = subprocess.check_output([skmDir, 'start'])
 #print skmOutput
 
 
+# Make findings proper and remove 'Identified' finding dictionary
+for d in dates:
+	for i in range(len(processedJsonDict[d])):
+		s = processedJsonDict[d][i]['finding']
+		processedJsonDict[d][i]['finding'] = s.title()
 
+for d in dates:
+	count = 0
+	for point in processedJsonDict[d]:
+		if point['finding'] == "Identified":
+			del processedJsonDict[d][count]
+		count+=1
 # Feed in all the finding phrases from processedJsonDict to findingDict[date] = ()
 #CommonFindings set = Union of findingDict[date]
 for d in dates:
@@ -80,8 +108,8 @@ for d in dates:
 	diff = commonFindings - findingsDict[d]
 	for f in diff:
 		pointDict = OrderedDict()
-		pointDict = ()
-		pointDict = {'finding':f,'context':'','sentence':'','colorCode':0}
+		#pointDict = ()
+		pointDict = {'finding':f,'context':'','sentence':'','date':d,'colorCode':0}
 		processedJsonDict[d].append(pointDict)
 
 completeJson = []
@@ -89,11 +117,11 @@ for d in processedJsonDict:
 	completeJson += processedJsonDict[d]
 
 
-with open('result.json', 'w') as fp:
+with open('completeresult.json', 'w') as fp:
     json.dump(completeJson, fp)
 
 # push above json
-
+print("--- %s seconds ---" % (time.time() - start_time))
 
 
 '''
