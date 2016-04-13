@@ -1,4 +1,0 @@
-
-
-def getSentences():
-    print 'a'
