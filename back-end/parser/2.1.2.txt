@@ -1,0 +1,194 @@
+1. Sentence in report ====> new nodules
+
+[(u'new', 'JJ'), (u'nodules', 'NNS')]
+
+nodules =====> Slap nodules of wrist (disorder)
+
+Pairs =====>new nodules
+
+
+Predicted from pairs of nouns and adjectives
+Single word analysis of nodules
+{u'body structure': 1,
+ u'disorder': 17,
+ u'finding': 9,
+ u"including peau d'orange": 2,
+ u'lung': 1,
+ u'morphologic abnormality': 1,
+ u'not including pectoralis muscle': 1,
+ u'observable entity': 1,
+ u'qualifier value': 2,
+ u's': 2,
+ u'situation': 1}
+
+
+
+
+
+
+Predicted from trios of nouns and adjectives
+
+
+George said- new nodules
+
+2. Sentence in report ====> new lesions
+
+[(u'new', 'JJ'), (u'lesions', 'NNS')]
+
+
+Pairs =====>new lesions
+
+
+Predicted from pairs of nouns and adjectives
+Single word analysis of lesions
+{u'IA': 1,
+ u'disorder': 30,
+ u'finding': 6,
+ u'observable entity': 2,
+ u'procedure': 7,
+ u'qualifier value': 1}
+
+
+
+
+
+
+Predicted from trios of nouns and adjectives
+
+
+George said- new lesions
+
+3. Sentence in report ====> evidence of recurrent or residual disease within the nephrectomy bed
+
+[(u'evidence', 'NN'),
+ (u'recurrent', 'NN'),
+ (u'residual', 'JJ'),
+ (u'disease', 'NN'),
+ (u'nephrectomy', 'NN')]
+
+disease =====> Diabetic renal disease (disorder)
+
+Pairs =====>residual disease
+
+
+Predicted from pairs of nouns and adjectives
+Pair analysis of residual disease
+{u'disorder': 1,
+ u'finding': 2,
+ u'greater than 50% debulking': 1,
+ u'spread to regional lymph nodes': 1}
+
+
+
+
+
+
+Predicted from trios of nouns and adjectives
+
+
+George said- recurrent or residual disease [nephrectomy bed]
+
+4. Sentence in report ====> Stable to slightly decreased in size innumerable pulmonary metastases
+
+[(u'Stable', 'JJ'),
+ (u'size', 'NN'),
+ (u'innumerable', 'JJ'),
+ (u'pulmonary', 'JJ'),
+ (u'metastases', 'NNS')]
+
+pulmonary =====> Pulmonary lymphadenopathy (disorder)
+
+Pairs =====>pulmonary metastases
+
+
+Predicted from pairs of nouns and adjectives
+Single word analysis of metastases
+{u'attribute': 2,
+ u'disorder': 4,
+ u'finding': 3,
+ u'observable entity': 3,
+ u'procedure': 3,
+ u's': 1,
+ u'tumor staging': 3}
+
+
+
+
+Trios =====>innumerable pulmonary metastases
+
+
+Predicted from trios of nouns and adjectives
+
+
+George said- pulmonary metastases [lungs]
+
+5. Sentence in report ====> Resolution of pulmonary effusions
+
+[(u'Resolution', 'NN'), (u'pulmonary', 'JJ'), (u'effusions', 'NNS')]
+
+pulmonary =====> Pulmonary lymphadenopathy (disorder)
+
+Pairs =====>pulmonary effusions
+
+
+Predicted from pairs of nouns and adjectives
+Single word analysis of effusions
+{u'morphologic abnormality': 1}
+
+
+
+
+
+
+Predicted from trios of nouns and adjectives
+
+
+George said- pulmonary effusions [lungs] #wrong
+
+6. Sentence in report ====> Stable osseous metastases
+
+[(u'Stable', 'JJ'), (u'osseous', 'JJ'), (u'metastases', 'NNS')]
+
+
+Pairs =====>osseous metastases
+
+
+Predicted from pairs of nouns and adjectives
+Single word analysis of metastases
+{u'attribute': 2,
+ u'disorder': 4,
+ u'finding': 3,
+ u'observable entity': 3,
+ u'procedure': 3,
+ u's': 1,
+ u'tumor staging': 3}
+
+
+
+
+Trios =====>Stable osseous metastases
+
+
+Predicted from trios of nouns and adjectives
+
+
+George said- osseous metastases [bones]
+
+7. Sentence in report ====> Status post left nephrectomy
+
+[(u'Status', 'NNP'), (u'post', 'NN'), (u'nephrectomy', 'NN')]
+
+post =====> Post-infectious cold agglutinin disease (disorder)
+
+
+
+Predicted from pairs of nouns and adjectives
+
+
+
+
+Predicted from trios of nouns and adjectives
+
+
+George said- left nephrectomy [kidney]
+

@@ -1,0 +1,191 @@
+Processing 1.tx.1: 'Progression of disease with increase in lymphadenopathy and bilateral adrenal nodules'
+
+Phrase: 'Progression of disease
+Meta Mapping (858):
+   858   Disease progression NOS (Death Adverse Event Due to Disease Progression Not Associated with More Specific CTCAE Term) [Finding]
+Meta Mapping (858):
+   858   Disease Progression [Pathologic Function]
+
+Phrase: with increase in lymphadenopathy
+Meta Mapping (733):
+   604   With (In addition to) [Qualitative Concept]
+   770   Increase [Functional Concept]
+   604   LYMPHADENOPATHY (Lymphadenopathy) [Finding]
+Meta Mapping (733):
+   604   With (With - dosing instruction fragment) [Intellectual Product]
+   770   Increase [Functional Concept]
+   604   LYMPHADENOPATHY (Lymphadenopathy) [Finding]
+
+Phrase: and
+
+Phrase: bilateral adrenal nodules'
+Meta Mapping (802):
+   660   BILATERAL (Bilateral) [Spatial Concept]
+   827   Nodules (Nodule) [Acquired Abnormality]
+Meta Mapping (802):
+   660   BILATERAL (Bilateral) [Spatial Concept]
+   827   nodules (Nodulus cerebelli) [Body Part, Organ, or Organ Component]
+Processing 2.tx.1: 'retroperitoneal edema , new small left effusion and new small-volume ascites. Soft tissue thickening along the undersurface of the left diaphragm is stable from the recent exam but increased from older studies and suspicious for peritoneal tumor'
+
+Phrase: 'retroperitoneal edema ,
+Meta Mapping (1000):
+  1000   Retroperitoneal edema [Disease or Syndrome]
+
+Phrase: new small left effusion
+Meta Mapping (833):
+   645   NEW (New) [Qualitative Concept]
+   645   SMALL (Small) [Quantitative Concept]
+   645   LEFT (Left) [Spatial Concept]
+   812   Effusion (Effusion (substance)) [Body Substance]
+Meta Mapping (833):
+   645   NEW (New) [Qualitative Concept]
+   645   SMALL (Small) [Quantitative Concept]
+   645   LEFT (Left) [Spatial Concept]
+   812   Effusion (effusion) [Pathologic Function]
+Meta Mapping (833):
+   645   NEW (New) [Qualitative Concept]
+   645   SMALL (Small) [Quantitative Concept]
+   645   Left (Left sided) [Spatial Concept]
+   812   Effusion (Effusion (substance)) [Body Substance]
+Meta Mapping (833):
+   645   NEW (New) [Qualitative Concept]
+   645   SMALL (Small) [Quantitative Concept]
+   645   Left (Left sided) [Spatial Concept]
+   812   Effusion (effusion) [Pathologic Function]
+Meta Mapping (833):
+   645   NEW (New) [Qualitative Concept]
+   645   SMALL (Small) [Quantitative Concept]
+   645   left (Table Cell Horizontal Align - left) [Functional Concept]
+   812   Effusion (Effusion (substance)) [Body Substance]
+Meta Mapping (833):
+   645   NEW (New) [Qualitative Concept]
+   645   SMALL (Small) [Quantitative Concept]
+   645   left (Table Cell Horizontal Align - left) [Functional Concept]
+   812   Effusion (effusion) [Pathologic Function]
+
+Phrase: and
+
+Phrase: new small-volume ascites. Soft tissue thickening along the undersurface of the left diaphragm
+Meta Mapping (667):
+   568   NEW (New) [Qualitative Concept]
+   568   SMALL (Small) [Quantitative Concept]
+   568   % volume (% volume (qualifier value)) [Qualitative Concept]
+   568   ASCITES (Ascites) [Finding]
+   581   SOFT TISSUE (Soft Tissue Route of Drug Administration) [Functional Concept]
+   734   Thickening (Thickened) [Finding]
+   568   LEFT (Left) [Spatial Concept]
+   568   Diaphragm (Device Diaphragm Device Component) [Manufactured Object]
+Meta Mapping (667):
+   568   NEW (New) [Qualitative Concept]
+   568   SMALL (Small) [Quantitative Concept]
+   568   % volume (% volume (qualifier value)) [Qualitative Concept]
+   568   ASCITES (Ascites) [Finding]
+   581   SOFT TISSUE (Soft Tissue Route of Drug Administration) [Functional Concept]
+   734   Thickening (Thickened) [Finding]
+   568   LEFT (Left) [Spatial Concept]
+   568   Diaphragm (Entire diaphragm) [Body Part, Organ, or Organ Component]
+Meta Mapping (667):
+   568   NEW (New) [Qualitative Concept]
+   568   SMALL (Small) [Quantitative Concept]
+   568   *Volume (Volume) [Quantitative Concept]
+   568   ASCITES (Ascites) [Finding]
+   581   SOFT TISSUE (Soft Tissue Route of Drug Administration) [Functional Concept]
+   734   Thickening (Thickened) [Finding]
+   568   LEFT (Left) [Spatial Concept]
+   568   DIAPHRAGM (Respiratory Diaphragm) [Body Part, Organ, or Organ Component]
+Meta Mapping (667):
+   568   NEW (New) [Qualitative Concept]
+   568   SMALL (Small) [Quantitative Concept]
+   568   *Volume (Volume) [Quantitative Concept]
+   568   ASCITES (Ascites) [Finding]
+   581   SOFT TISSUE (Soft Tissue Route of Drug Administration) [Functional Concept]
+   734   Thickening (Thickened) [Finding]
+   568   LEFT (Left) [Spatial Concept]
+   568   DIAPHRAGM (Vaginal contraceptive diaphragm (device)) [Medical Device]
+Meta Mapping (667):
+   568   NEW (New) [Qualitative Concept]
+   568   SMALL (Small) [Quantitative Concept]
+   568   *Volume (Volume) [Quantitative Concept]
+   568   ASCITES (Ascites) [Finding]
+   581   SOFT TISSUE (Soft Tissue Route of Drug Administration) [Functional Concept]
+   734   Thickening (Thickened) [Finding]
+   568   Left (Left sided) [Spatial Concept]
+   568   Diaphragm (Device Diaphragm Device Component) [Manufactured Object]
+Meta Mapping (667):
+   568   NEW (New) [Qualitative Concept]
+   568   SMALL (Small) [Quantitative Concept]
+   568   Volume (Volume Measurement) [Laboratory Procedure]
+   568   ASCITES (Ascites) [Finding]
+   581   Soft Tissue (soft tissue) [Tissue]
+   734   Thickening (Thickened) [Finding]
+   568   left (Table Cell Horizontal Align - left) [Functional Concept]
+   568   DIAPHRAGM (Vaginal contraceptive diaphragm (device)) [Medical Device]
+
+Phrase: is
+
+Phrase: stable from the recent exam
+Meta Mapping (696):
+   760   Stable (Patient Condition Code - Stable) [Intellectual Product]
+   593   Recent [Temporal Concept]
+   593   Exam (Medical Examination) [Health Care Activity]
+Meta Mapping (696):
+   760   STABLE (Stable status) [Qualitative Concept]
+   593   Recent [Temporal Concept]
+   593   Exam (Medical Examination) [Health Care Activity]
+
+Phrase: but
+
+Phrase: increased from older studies
+Meta Mapping (722):
+   770   Increased (Increase) [Functional Concept]
+   737   Old [Temporal Concept]
+   770   studies (Scientific Study) [Laboratory Procedure]
+Meta Mapping (722):
+   770   Increased [Quantitative Concept]
+   737   Old [Temporal Concept]
+   770   studies (Scientific Study) [Laboratory Procedure]
+
+Phrase: and
+
+Phrase: suspicious for peritoneal tumor'
+Meta Mapping (783):
+   770   Suspicious (suspicious) [Idea or Concept]
+   666   Peritoneal Tumor (Peritoneal Neoplasms) [Neoplastic Process]
+Processing 3.tx.1: 'Increase in subtle sclerosis in the superior half of the L2 vertebral body suspicious for metastasis'
+
+Phrase: 'Increase in subtle sclerosis
+Meta Mapping (709):
+   770   Increase [Functional Concept]
+   532   Subtlety (Subtlety Score) [Clinical Attribute]
+   604   Sclerosis [Pathologic Function]
+
+Phrase: in the superior half of the L2 vertebral body
+Meta Mapping (714):
+   575   In (Present) [Quantitative Concept]
+   575   SUPERIOR (Upper) [Spatial Concept]
+   784   Half of body (half of body) [Body Part, Organ, or Organ Component]
+   575   L2 (L2 innervation) [Body Location or Region]
+   575   Vertebral (Bone structure of spine) [Body Part, Organ, or Organ Component]
+Meta Mapping (714):
+   575   In (Present) [Quantitative Concept]
+   575   SUPERIOR (Upper) [Spatial Concept]
+   784   Half of body (half of body) [Body Part, Organ, or Organ Component]
+   575   L2 (PPFIBP1 gene) [Gene or Genome]
+   575   Vertebral (Bone structure of spine) [Body Part, Organ, or Organ Component]
+Meta Mapping (714):
+   575   In (Within) [Spatial Concept]
+   575   SUPERIOR (Upper) [Spatial Concept]
+   784   Half of body (half of body) [Body Part, Organ, or Organ Component]
+   575   L2 (ZACN gene) [Gene or Genome]
+   575   Vertebral (Bone structure of spine) [Body Part, Organ, or Organ Component]
+
+Phrase: suspicious for metastasis'
+Meta Mapping (746):
+   790   Suspicious (suspicious) [Idea or Concept]
+   623   metastasis (Metastatic Neoplasm) [Neoplastic Process]
+Meta Mapping (746):
+   790   Suspicious (suspicious) [Idea or Concept]
+   623   Metastasis (Neoplasm Metastasis) [Neoplastic Process]
+Meta Mapping (746):
+   790   Suspicious (suspicious) [Idea or Concept]
+   623   Metastasis (Secondary Neoplasm) [Neoplastic Process]

@@ -1,0 +1,161 @@
+1. Sentence in report ====> new hepatic lesion
+
+[(u'new', 'JJ'), (u'hepatic', 'JJ'), (u'lesion', 'NN')]
+
+hepatic =====> Neoplasm of hepatic flexure of colon (disorder)
+Pairs =====>hepatic lesion
+
+
+Predicted from pairs of nouns and adjectives
+Pair analysis of hepatic lesion
+{u'procedure': 2}
+
+
+
+
+Trios =====>new hepatic lesion
+
+
+Predicted from trios of nouns and adjectives
+
+
+George said- (new) hepatic lesion [liver]
+
+2. Sentence in report ====> Since December 8 , 2014 , interval marked decrease in mediastinal , abdominal , and pelvic lymphadenopathy , as detailed above
+
+[(u'December', 'NNP'),
+ (u'interval', 'NN'),
+ (u'decrease', 'NN'),
+ (u'mediastinal', 'JJ'),
+ (u'abdominal', 'JJ'),
+ (u'pelvic', 'JJ'),
+ (u'lymphadenopathy', 'NN')]
+
+mediastinal =====> Anterior mediastinal lymphadenopathy (disorder)
+abdominal =====> Neoplasm of abdominal esophagus (disorder)
+pelvic =====> Neoplasm of pelvic peritoneum (disorder)
+lymphadenopathy =====> Superficial lymphadenopathy (disorder)
+Pairs =====>pelvic lymphadenopathy
+
+
+Predicted from pairs of nouns and adjectives
+Pair analysis of pelvic lymphadenopathy
+{u'disorder': 1}
+
+
+
+
+
+
+Predicted from trios of nouns and adjectives
+
+
+George said- mediastinal, abdominal, and pelvic lymphadenopathy [lymph nodes]
+
+3. Sentence in report ====> Decreased size of a hepatic metastasis
+
+[(u'size', 'NN'), (u'hepatic', 'JJ'), (u'metastasis', 'NN')]
+
+hepatic =====> Neoplasm of hepatic flexure of colon (disorder)
+Pairs =====>hepatic metastasis
+
+
+Predicted from pairs of nouns and adjectives
+Pair analysis of hepatic metastasis
+{u'IV': 1, u'disorder': 1}
+
+
+
+
+
+
+Predicted from trios of nouns and adjectives
+
+
+George said- hepatic metastasis [liver]
+
+4. Sentence in report ====> Decreased , now trace , abdominopelvic ascites and mesenteric fat stranding
+
+[(u'trace', 'NN'),
+ (u'abdominopelvic', 'JJ'),
+ (u'ascites', 'NNS'),
+ (u'mesenteric', 'JJ'),
+ (u'fat', 'NN')]
+
+trace =====> Disorder of trace mineral metabolism (disorder)
+ascites =====> Tuberculous ascites (disorder)
+mesenteric =====> Superior mesenteric lymphadenopathy (disorder)
+Pairs =====>abdominopelvic ascites
+Pairs =====>mesenteric fat
+
+
+Predicted from pairs of nouns and adjectives
+Single word analysis of ascites
+{u'IA': 3,
+ u'IB': 3,
+ u'IC': 4,
+ u'IIA': 1,
+ u'IIB': 1,
+ u'IIC': 3,
+ u'III': 1,
+ u'IIIA': 1,
+ u'disorder': 29,
+ u'procedure': 7,
+ u'situation': 1}
+
+
+Pair analysis of mesenteric fat
+{u'disorder': 2}
+
+
+
+
+
+
+Predicted from trios of nouns and adjectives
+
+
+George said- abdominopelvic ascites [peritoneum] and - fat stranding [mesentery]
+
+5. Sentence in report ====> Increased loss of height of the superior endplate of the L1 vertebral body most compatible with a compression fracture
+
+[(u'loss', 'NN'),
+ (u'height', 'NN'),
+ (u'superior', 'JJ'),
+ (u'endplate', 'NN'),
+ (u'L1', 'NNP'),
+ (u'vertebral', 'JJ'),
+ (u'body', 'NN'),
+ (u'compatible', 'JJ'),
+ (u'compression', 'NN'),
+ (u'fracture', 'NN')]
+
+loss =====> Intracranial injury with loss of consciousness (disorder)
+superior =====> Superior tracheobronchial lymphadenopathy (disorder)
+body =====> Neoplasm of body of stomach (disorder)
+fracture =====> Fracture of basilar portion of occipital bone (disorder)
+Pairs =====>superior endplate
+Pairs =====>vertebral body
+
+
+Predicted from pairs of nouns and adjectives
+Pair analysis of vertebral body
+{u'body structure': 144,
+ u'combined site': 4,
+ u'disorder': 2,
+ u'finding': 3,
+ u'lung': 1,
+ u'physical object': 4,
+ u'procedure': 6,
+ u'surface region': 1}
+
+
+
+
+
+
+Predicted from trios of nouns and adjectives
+
+
+George said- (L1) vertebral body [bone] and - compression fracture [body]
+
