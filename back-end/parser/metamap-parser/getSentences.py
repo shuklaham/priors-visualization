@@ -1,0 +1,4 @@
+
+
+def getSentences():
+    print 'a'
