@@ -336,7 +336,7 @@ var Chart = React.createClass({
 
           priorsChart.append("text")
             .attr("text-anchor", "middle")  // this makes it easy to centre the text as the transform is applied to the anchor
-            .attr("transform", "translate("+ 500 +","+120+")rotate(90)")  // text is drawn off the screen top left, move down and out and rotate
+            .attr("transform", "translate("+ 520 +","+130+")rotate(90)")  // text is drawn off the screen top left, move down and out and rotate
             .text("FINDINGS")
             .attr("font-family", "Helvetica Neue")
             .attr("font-size", "16px")

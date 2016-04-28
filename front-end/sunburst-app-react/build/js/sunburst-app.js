@@ -19619,7 +19619,7 @@ var Chart = React.createClass({
       priorsChart.append("g").attr("class", "fontyaxis").attr("transform", "translate(" + 340 + "," + 0 + ")").call(yAxis).selectAll(".tick text").style("font-size", "13px");
 
       priorsChart.append("text").attr("text-anchor", "middle") // this makes it easy to centre the text as the transform is applied to the anchor
-      .attr("transform", "translate(" + 500 + "," + 120 + ")rotate(90)") // text is drawn off the screen top left, move down and out and rotate
+      .attr("transform", "translate(" + 520 + "," + 130 + ")rotate(90)") // text is drawn off the screen top left, move down and out and rotate
       .text("FINDINGS").attr("font-family", "Helvetica Neue").attr("font-size", "16px").attr("font-weight", "bold").attr("fill", "black");
 
       priorsChart.selectAll("rect.legend").data(["neg", "pos"]).enter().append("rect").attr("class", "legend").attr("x", function (d, i) {
