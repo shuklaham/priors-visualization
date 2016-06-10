@@ -174,10 +174,34 @@ var Chart = React.createClass({
       };
     },
     componentDidMount: function() {
-      var reportJsonObjects = this.props.data
-      //console.log(reportJsonObjects)
 
+      var rectw = 96;
+      var recth = 23;
+
+      var reportJsonObjects = this.props.data
       var l = reportJsonObjects.length
+      //console.log(reportJsonObjects)     
+
+      var datesreps = reportJsonObjects[l-2]
+
+      var newdates = []
+      for (var i = 0; i < datesreps.length;i++){
+        var indexes = []
+        var p = new Date(datesreps[i])
+        p = p.toUTCString()
+        for(var j = 0;j < p.length;j++){
+          if(p[j]==' '){
+            indexes.push(j)
+          }
+        }
+        newdates.push(p.slice(indexes[0]+1,indexes[3]))
+        //newdates[datesreps[i]]=p.slice(indexes[0]+1,indexes[3])
+      }
+      newdates.splice(0, 0, " ");
+      newdates.push("   ");
+
+      console.log(newdates)
+
       //console.log(l)
       var reportPoints = reportJsonObjects.slice(0,l-2)
 
@@ -191,23 +215,6 @@ var Chart = React.createClass({
           noMentionPoints.push(reportPoints[i])
         }
       }
-      // console.log(actualReportPoints)
-      // console.log(noMentionPoints)
-
-      // console.oldLog = console.log;
-
-      // console.log = function(value)
-      // {
-      //     console.oldLog(value);
-      //     window.$d = value;
-      // };
-
-      // Usage
-
-     // console.log(reportJsonObjects);
-
-      var rectw = 96;
-      var recth = 23;
       
       var commonfindings = reportJsonObjects[l-1]
       var ylen = recth*(commonfindings.length+1);
@@ -216,21 +223,6 @@ var Chart = React.createClass({
       commonfindings.push("   ");
  
       var difference = []
-      var datesreps = reportJsonObjects[l-2]
-
-      var newdates = []
-      for (var i = 0;i<3;i++){
-        var d = new Date(datesreps[i])
-        var s = d.toString()
-        var indexes = []
-        for(var j = 0;j<s.length;j++){
-          if (s[j] == ' '){
-            indexes.push(j)
-          }
-        }
-        newdates.push(s.slice(indexes[0]+1,indexes[3])) 
-      }
-
       for (var d in datesreps){
         var months;
         var d1 = new Date(datesreps[d]);
@@ -242,17 +234,13 @@ var Chart = React.createClass({
         }
       //console.log(newdates)
       //console.log(difference)
-
       var temp = "   "
       datesreps.splice(0, 0, "  ");
       datesreps.push("   ");
 
-
       //console.log(datesreps)
 
       var colorArray = {"neg":"#313E4D","pos":"#F7D24A"};
-
-
       var legendArray = [{"date":datesreps[1],"t":"Absence"}, 
                         {"date":datesreps[2],"t":"Presence"},
                         {"date":datesreps[3],"t":"No mention"}]
@@ -276,6 +264,7 @@ var Chart = React.createClass({
       // define the x axis
       var xAxis = d3.svg.axis()
           .scale(xRange)
+          .tickFormat(function(d,i) { return newdates[i]; })
           .orient("top");
 
       // define the y axis
