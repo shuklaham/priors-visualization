@@ -407,7 +407,7 @@ var Chart = React.createClass({
                   return xRange(d.date)
              })
              .attr("y", function(d, i) {
-                  return 6*rect.recth+50
+                  return (commonfindings.length+1)*rect.recth+50
              })
              .attr("width", rect.rectw)
              .attr("height", rect.recth)
@@ -425,7 +425,7 @@ var Chart = React.createClass({
                   return xRange(d.date)
              })
              .attr("y", function(d, i) {
-                  return 6*rect.recth+50
+                  return (commonfindings.length+1)*rect.recth+50
              })
              .attr("width", rect.rectw)
              .attr("height", rect.recth)
@@ -450,7 +450,7 @@ var Chart = React.createClass({
              .attr("x", function(d, i){
                   return xRange(d.date)})
              .attr("y", function(d, i) {
-                  return 6*rect.recth+75;
+                  return (commonfindings.length+1)*rect.recth+75;
               })
              .attr("font-family", "Helvetica Neue")
              .attr("font-size", "15px")

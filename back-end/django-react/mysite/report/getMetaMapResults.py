@@ -26,7 +26,7 @@ def getMetamapResults(sentences,metaMapBinDir):
         input_file.flush()
         #output_file = open("temp_output", "w")
 
-    command = [metaMapExec,'--sldiID']
+    command = [metaMapExec,'--sldiID','--silent']
     command.append(input_file.name)
     #command.append(output_file.name)
 # ['/home/shukla/Documents/WMC/backendStuff/MetaMap/public_mm/bin/metamap', '--sldiID', '/tmp/tmp3grliz', '/tmp/tmpoC_O9s']
