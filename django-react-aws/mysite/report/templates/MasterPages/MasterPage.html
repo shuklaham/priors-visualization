@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1">
+    <title>Sunburst | {% block title %} {% endblock %}</title>
+    {% load staticfiles %}
+    {% if request.user.username == "shukla" %}
+        <link rel="stylesheet" href="{% static 'css/main.css' %}" type="text/css"/>
+    {% else %}
+        <link rel="stylesheet" href="{% static 'build/css/main.css' %}" type="text/css"/>
+    {% endif %}
+</head>
+<body>
+
+{% block content %}
+
+{% endblock %}
+    <script src="{% static 'bower_components/jquery/dist/jquery.min.js' %}"></script>
+    <script src="{% static 'bower_components/react/react.min.js' %}"></script>
+    <script src="{% static 'bower_components/react/react-dom.min.js' %}"></script>
+    {% if request.user.username == "shukla" %}
+        <script src="{% static 'bower_components/babel/browser.js' %}"></script>
+        <script src="{% static 'js/indexReact.js' %}" type="text/babel"></script>
+    {% else %}
+        You are not logged in so no react for you !
+    {% endif %}
+
+</body>
+</html>
