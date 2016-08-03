@@ -78,9 +78,16 @@ def startParser(obj,metaMapBinDir):
 	for d in processedJsonDict:
 		completeJson += processedJsonDict[d]
 
-	#add dates at the end
-	completeJson.append(dates)
-	completeJson.append(list(commonFindings))
+	#append a Json object in common findings carrying all the extraInfo
+	extraInfo = {}
+	extraInfo['dates'] = dates
+	extraInfo['all_findings'] = list(commonFindings)
+	extraInfo['age']= jLatest["age"]
+	extraInfo['clinical_statement'] = jLatest["clinical_statement"]
+	extraInfo['patient_name'] = jLatest["patient_name"]
+
+	completeJson.append(extraInfo)
+
 
 	resultName = 'completeresult'+'.json'
 	with open(resultName, 'w') as fp:

@@ -1,0 +1,486 @@
+Processing 1.tx.1: No intra-abdominal findings to explain the patient's persistent fevers.
+
+Phrase: No intra-abdominal findings
+Meta Mapping (888):
+    734  Intraabdominal (Abdominal Cavity) [Body Location or Region]
+    827  FINDINGS (CDISC Findings Class) [Intellectual Product]
+Meta Mapping (888):
+    734  Intraabdominal (Abdominal Cavity) [Body Location or Region]
+    827  Findings (Procedure findings:Finding:Point in time:^Patient:Narrative) [Clinical Attribute]
+Meta Mapping (888):
+    734  Intraabdominal (Abdominal Cavity) [Body Location or Region]
+    827  findings (findings aspects) [Functional Concept]
+Meta Mapping (888):
+    734  Intra-abdominal [Spatial Concept]
+    827  FINDINGS (CDISC Findings Class) [Intellectual Product]
+Meta Mapping (888):
+    734  Intra-abdominal [Spatial Concept]
+    827  Findings (Procedure findings:Finding:Point in time:^Patient:Narrative) [Clinical Attribute]
+Meta Mapping (888):
+    734  Intra-abdominal [Spatial Concept]
+    827  findings (findings aspects) [Functional Concept]
+
+Phrase: to
+Meta Mapping (1000):
+   1000  To [Qualitative Concept]
+Meta Mapping (1000):
+   1000  TO (Togo) [Geographic Area]
+Meta Mapping (1000):
+   1000  TO (Tryptophanase) [Amino Acid, Peptide, or Protein,Enzyme]
+
+Phrase: explain
+
+Phrase: the patient's persistent fevers.
+Meta Mapping (890):
+    660  Patient (Abortion consent:Finding:Point in time:^Patient:Document) [Clinical Attribute]
+    884  Persistent fever (persistent fever) [Pathologic Function]
+Meta Mapping (890):
+    660  Patient (Hysterectomy consent:Finding:Point in time:^Patient:Document) [Clinical Attribute]
+    884  Persistent fever (persistent fever) [Pathologic Function]
+Meta Mapping (890):
+    660  *^patient (Patients) [Patient or Disabled Group]
+    884  Persistent fever (persistent fever) [Pathologic Function]
+Meta Mapping (890):
+    660  Patient (Sterilization consent:Finding:Point in time:^Patient:Document) [Clinical Attribute]
+    884  Persistent fever (persistent fever) [Pathologic Function]
+Processing 2.tx.1: Progression of disease with increase in lymphadenopathy and bilateral adrenal nodules.
+
+Phrase: Progression of disease
+Meta Mapping (858):
+    858  Disease progression NOS (Death Adverse Event Due to Disease Progression Not Associated with More Specific CTCAE Term) [Finding]
+Meta Mapping (858):
+    858  Disease Progression [Pathologic Function]
+
+Phrase: with increase in lymphadenopathy
+Meta Mapping (733):
+    604  With (In addition to) [Qualitative Concept]
+    770  Increase [Functional Concept]
+    604  LYMPHADENOPATHY (Lymphadenopathy) [Finding]
+Meta Mapping (733):
+    604  With (With - dosing instruction fragment) [Intellectual Product]
+    770  Increase [Functional Concept]
+    604  LYMPHADENOPATHY (Lymphadenopathy) [Finding]
+
+Phrase: and
+
+Phrase: bilateral adrenal nodules.
+Meta Mapping (802):
+    660  BILATERAL (Bilateral) [Spatial Concept]
+    827  Nodules (Nodule) [Acquired Abnormality]
+Meta Mapping (802):
+    660  BILATERAL (Bilateral) [Spatial Concept]
+    827  nodules (Nodulus cerebelli) [Body Part, Organ, or Organ Component]
+Processing 3.tx.1: Stable ill-defined soft tissue infiltrating the porta hepatis and pancreatic head representing the patient's known tumor.
+
+Phrase: Stable ill-defined soft tissue
+Meta Mapping (840):
+    637  Stable (Patient Condition Code - Stable) [Intellectual Product]
+    637  Ill (Malaise) [Sign or Symptom]
+    637  Defined (Definition) [Intellectual Product]
+    840  SOFT TISSUE (Soft Tissue Route of Drug Administration) [Functional Concept]
+Meta Mapping (840):
+    637  Stable (Patient Condition Code - Stable) [Intellectual Product]
+    637  Ill (Malaise) [Sign or Symptom]
+    637  Defined (Definition) [Intellectual Product]
+    840  Soft Tissue (soft tissue) [Tissue]
+Meta Mapping (840):
+    637  Stable (Patient Condition Code - Stable) [Intellectual Product]
+    637  Ill (Malaise) [Sign or Symptom]
+    637  Defined (Sufficiently defined concept definition status (core metadata concept)) [Intellectual Product]
+    840  SOFT TISSUE (Soft Tissue Route of Drug Administration) [Functional Concept]
+Meta Mapping (840):
+    637  Stable (Patient Condition Code - Stable) [Intellectual Product]
+    637  Ill (Malaise) [Sign or Symptom]
+    637  Defined (Sufficiently defined concept definition status (core metadata concept)) [Intellectual Product]
+    840  Soft Tissue (soft tissue) [Tissue]
+Meta Mapping (840):
+    637  STABLE (Stable status) [Qualitative Concept]
+    637  Ill (Malaise) [Sign or Symptom]
+    637  Defined (Definition) [Intellectual Product]
+    840  SOFT TISSUE (Soft Tissue Route of Drug Administration) [Functional Concept]
+Meta Mapping (840):
+    637  STABLE (Stable status) [Qualitative Concept]
+    637  Ill (Malaise) [Sign or Symptom]
+    637  Defined (Definition) [Intellectual Product]
+    840  Soft Tissue (soft tissue) [Tissue]
+Meta Mapping (840):
+    637  STABLE (Stable status) [Qualitative Concept]
+    637  Ill (Malaise) [Sign or Symptom]
+    637  Defined (Sufficiently defined concept definition status (core metadata concept)) [Intellectual Product]
+    840  SOFT TISSUE (Soft Tissue Route of Drug Administration) [Functional Concept]
+Meta Mapping (840):
+    637  STABLE (Stable status) [Qualitative Concept]
+    637  Ill (Malaise) [Sign or Symptom]
+    637  Defined (Sufficiently defined concept definition status (core metadata concept)) [Intellectual Product]
+    840  Soft Tissue (soft tissue) [Tissue]
+
+Phrase: infiltrating
+Meta Mapping (1000):
+   1000  Infiltrating (Infiltration) [Functional Concept]
+
+Phrase: the porta hepatis
+Meta Mapping (1000):
+   1000  Porta hepatis (Entire porta hepatis) [Body Part, Organ, or Organ Component]
+Meta Mapping (1000):
+   1000  Porta Hepatis (Structure of porta hepatis) [Body Space or Junction]
+
+Phrase: and
+
+Phrase: pancreatic head
+Meta Mapping (1000):
+   1000  Pancreatic Head (Head of pancreas) [Body Part, Organ, or Organ Component]
+
+Phrase: representing
+Meta Mapping (966):
+    966  Represent (Representation (action)) [Activity]
+
+Phrase: the patient's known tumor.
+Meta Mapping (851):
+    660  Patient (Abortion consent:Finding:Point in time:^Patient:Document) [Clinical Attribute]
+    660  Known [Qualitative Concept]
+    827  TUMOR (Neoplasms) [Neoplastic Process]
+Meta Mapping (851):
+    660  Patient (Abortion consent:Finding:Point in time:^Patient:Document) [Clinical Attribute]
+    660  Known [Qualitative Concept]
+    827  Tumor (Specimen Source Codes - tumor) [Intellectual Product]
+Meta Mapping (851):
+    660  Patient (Abortion consent:Finding:Point in time:^Patient:Document) [Clinical Attribute]
+    660  Known [Qualitative Concept]
+    827  Tumor (Tumor Mass) [Finding]
+Meta Mapping (851):
+    660  Patient (Hysterectomy consent:Finding:Point in time:^Patient:Document) [Clinical Attribute]
+    660  Known [Qualitative Concept]
+    827  TUMOR (Neoplasms) [Neoplastic Process]
+Meta Mapping (851):
+    660  Patient (Hysterectomy consent:Finding:Point in time:^Patient:Document) [Clinical Attribute]
+    660  Known [Qualitative Concept]
+    827  Tumor (Specimen Source Codes - tumor) [Intellectual Product]
+Meta Mapping (851):
+    660  Patient (Hysterectomy consent:Finding:Point in time:^Patient:Document) [Clinical Attribute]
+    660  Known [Qualitative Concept]
+    827  Tumor (Tumor Mass) [Finding]
+Meta Mapping (851):
+    660  *^patient (Patients) [Patient or Disabled Group]
+    660  Known [Qualitative Concept]
+    827  TUMOR (Neoplasms) [Neoplastic Process]
+Meta Mapping (851):
+    660  *^patient (Patients) [Patient or Disabled Group]
+    660  Known [Qualitative Concept]
+    827  Tumor (Specimen Source Codes - tumor) [Intellectual Product]
+Meta Mapping (851):
+    660  *^patient (Patients) [Patient or Disabled Group]
+    660  Known [Qualitative Concept]
+    827  Tumor (Tumor Mass) [Finding]
+Meta Mapping (851):
+    660  Patient (Sterilization consent:Finding:Point in time:^Patient:Document) [Clinical Attribute]
+    660  Known [Qualitative Concept]
+    827  TUMOR (Neoplasms) [Neoplastic Process]
+Meta Mapping (851):
+    660  Patient (Sterilization consent:Finding:Point in time:^Patient:Document) [Clinical Attribute]
+    660  Known [Qualitative Concept]
+    827  Tumor (Specimen Source Codes - tumor) [Intellectual Product]
+Meta Mapping (851):
+    660  Patient (Sterilization consent:Finding:Point in time:^Patient:Document) [Clinical Attribute]
+    660  Known [Qualitative Concept]
+    827  Tumor (Tumor Mass) [Finding]
+Processing 4.tx.1: Increased mesenteric/retroperitoneal edema, new small left effusion and new small-volume ascites.
+
+Phrase: Increased mesenteric/retroperitoneal edema,
+Meta Mapping (861):
+    645  Increased (Increase) [Functional Concept]
+    645  Mesenteric (Mesentery) [Body Location or Region]
+    861  Retroperitoneal edema [Disease or Syndrome]
+Meta Mapping (861):
+    645  Increased [Quantitative Concept]
+    645  Mesenteric (Mesentery) [Body Location or Region]
+    861  Retroperitoneal edema [Disease or Syndrome]
+
+Phrase: new small left effusion
+Meta Mapping (833):
+    645  NEW (New) [Qualitative Concept]
+    645  SMALL (Small) [Quantitative Concept]
+    645  LEFT (Left) [Spatial Concept]
+    812  Effusion (Effusion (substance)) [Body Substance]
+Meta Mapping (833):
+    645  NEW (New) [Qualitative Concept]
+    645  SMALL (Small) [Quantitative Concept]
+    645  LEFT (Left) [Spatial Concept]
+    812  Effusion (effusion) [Pathologic Function]
+Meta Mapping (833):
+    645  NEW (New) [Qualitative Concept]
+    645  SMALL (Small) [Quantitative Concept]
+    645  Left (Left sided) [Spatial Concept]
+    812  Effusion (Effusion (substance)) [Body Substance]
+Meta Mapping (833):
+    645  NEW (New) [Qualitative Concept]
+    645  SMALL (Small) [Quantitative Concept]
+    645  Left (Left sided) [Spatial Concept]
+    812  Effusion (effusion) [Pathologic Function]
+Meta Mapping (833):
+    645  NEW (New) [Qualitative Concept]
+    645  SMALL (Small) [Quantitative Concept]
+    645  left (Table Cell Horizontal Align - left) [Functional Concept]
+    812  Effusion (Effusion (substance)) [Body Substance]
+Meta Mapping (833):
+    645  NEW (New) [Qualitative Concept]
+    645  SMALL (Small) [Quantitative Concept]
+    645  left (Table Cell Horizontal Align - left) [Functional Concept]
+    812  Effusion (effusion) [Pathologic Function]
+
+Phrase: and
+
+Phrase: new small-volume ascites.
+Meta Mapping (833):
+    645  NEW (New) [Qualitative Concept]
+    645  SMALL (Small) [Quantitative Concept]
+    645  % volume (% volume (qualifier value)) [Qualitative Concept]
+    812  ASCITES (Ascites) [Finding]
+Meta Mapping (833):
+    645  NEW (New) [Qualitative Concept]
+    645  SMALL (Small) [Quantitative Concept]
+    645  *Volume (Volume) [Quantitative Concept]
+    812  ASCITES (Ascites) [Finding]
+Meta Mapping (833):
+    645  NEW (New) [Qualitative Concept]
+    645  SMALL (Small) [Quantitative Concept]
+    645  Volume (Volume (publication)) [Intellectual Product]
+    812  ASCITES (Ascites) [Finding]
+Meta Mapping (833):
+    645  NEW (New) [Qualitative Concept]
+    645  SMALL (Small) [Quantitative Concept]
+    645  Volume (Volume Measurement) [Laboratory Procedure]
+    812  ASCITES (Ascites) [Finding]
+Processing 5.tx.1: Soft tissue thickening along the undersurface of the left diaphragm is stable from the recent exam but increased from older studies and suspicious for peritoneal tumor.
+
+Phrase: Soft tissue thickening along the undersurface of the left diaphragm
+Meta Mapping (660):
+    593  SOFT TISSUE (Soft Tissue Route of Drug Administration) [Functional Concept]
+    739  Thickening (Thickened) [Finding]
+    573  LEFT (Left) [Spatial Concept]
+    573  Diaphragm (Device Diaphragm Device Component) [Manufactured Object]
+Meta Mapping (660):
+    593  SOFT TISSUE (Soft Tissue Route of Drug Administration) [Functional Concept]
+    739  Thickening (Thickened) [Finding]
+    573  LEFT (Left) [Spatial Concept]
+    573  Diaphragm (Entire diaphragm) [Body Part, Organ, or Organ Component]
+Meta Mapping (660):
+    593  SOFT TISSUE (Soft Tissue Route of Drug Administration) [Functional Concept]
+    739  Thickening (Thickened) [Finding]
+    573  LEFT (Left) [Spatial Concept]
+    573  DIAPHRAGM (Respiratory Diaphragm) [Body Part, Organ, or Organ Component]
+Meta Mapping (660):
+    593  SOFT TISSUE (Soft Tissue Route of Drug Administration) [Functional Concept]
+    739  Thickening (Thickened) [Finding]
+    573  LEFT (Left) [Spatial Concept]
+    573  DIAPHRAGM (Vaginal contraceptive diaphragm (device)) [Medical Device]
+Meta Mapping (660):
+    593  SOFT TISSUE (Soft Tissue Route of Drug Administration) [Functional Concept]
+    739  Thickening (Thickened) [Finding]
+    573  Left (Left sided) [Spatial Concept]
+    573  Diaphragm (Device Diaphragm Device Component) [Manufactured Object]
+Meta Mapping (660):
+    593  SOFT TISSUE (Soft Tissue Route of Drug Administration) [Functional Concept]
+    739  Thickening (Thickened) [Finding]
+    573  Left (Left sided) [Spatial Concept]
+    573  Diaphragm (Entire diaphragm) [Body Part, Organ, or Organ Component]
+Meta Mapping (660):
+    593  SOFT TISSUE (Soft Tissue Route of Drug Administration) [Functional Concept]
+    739  Thickening (Thickened) [Finding]
+    573  Left (Left sided) [Spatial Concept]
+    573  DIAPHRAGM (Respiratory Diaphragm) [Body Part, Organ, or Organ Component]
+Meta Mapping (660):
+    593  SOFT TISSUE (Soft Tissue Route of Drug Administration) [Functional Concept]
+    739  Thickening (Thickened) [Finding]
+    573  Left (Left sided) [Spatial Concept]
+    573  DIAPHRAGM (Vaginal contraceptive diaphragm (device)) [Medical Device]
+Meta Mapping (660):
+    593  SOFT TISSUE (Soft Tissue Route of Drug Administration) [Functional Concept]
+    739  Thickening (Thickened) [Finding]
+    573  left (Table Cell Horizontal Align - left) [Functional Concept]
+    573  Diaphragm (Device Diaphragm Device Component) [Manufactured Object]
+Meta Mapping (660):
+    593  SOFT TISSUE (Soft Tissue Route of Drug Administration) [Functional Concept]
+    739  Thickening (Thickened) [Finding]
+    573  left (Table Cell Horizontal Align - left) [Functional Concept]
+    573  Diaphragm (Entire diaphragm) [Body Part, Organ, or Organ Component]
+Meta Mapping (660):
+    593  SOFT TISSUE (Soft Tissue Route of Drug Administration) [Functional Concept]
+    739  Thickening (Thickened) [Finding]
+    573  left (Table Cell Horizontal Align - left) [Functional Concept]
+    573  DIAPHRAGM (Respiratory Diaphragm) [Body Part, Organ, or Organ Component]
+Meta Mapping (660):
+    593  SOFT TISSUE (Soft Tissue Route of Drug Administration) [Functional Concept]
+    739  Thickening (Thickened) [Finding]
+    573  left (Table Cell Horizontal Align - left) [Functional Concept]
+    573  DIAPHRAGM (Vaginal contraceptive diaphragm (device)) [Medical Device]
+Meta Mapping (660):
+    593  Soft Tissue (soft tissue) [Tissue]
+    739  Thickening (Thickened) [Finding]
+    573  LEFT (Left) [Spatial Concept]
+    573  Diaphragm (Device Diaphragm Device Component) [Manufactured Object]
+Meta Mapping (660):
+    593  Soft Tissue (soft tissue) [Tissue]
+    739  Thickening (Thickened) [Finding]
+    573  LEFT (Left) [Spatial Concept]
+    573  Diaphragm (Entire diaphragm) [Body Part, Organ, or Organ Component]
+Meta Mapping (660):
+    593  Soft Tissue (soft tissue) [Tissue]
+    739  Thickening (Thickened) [Finding]
+    573  LEFT (Left) [Spatial Concept]
+    573  DIAPHRAGM (Respiratory Diaphragm) [Body Part, Organ, or Organ Component]
+Meta Mapping (660):
+    593  Soft Tissue (soft tissue) [Tissue]
+    739  Thickening (Thickened) [Finding]
+    573  LEFT (Left) [Spatial Concept]
+    573  DIAPHRAGM (Vaginal contraceptive diaphragm (device)) [Medical Device]
+Meta Mapping (660):
+    593  Soft Tissue (soft tissue) [Tissue]
+    739  Thickening (Thickened) [Finding]
+    573  Left (Left sided) [Spatial Concept]
+    573  Diaphragm (Device Diaphragm Device Component) [Manufactured Object]
+Meta Mapping (660):
+    593  Soft Tissue (soft tissue) [Tissue]
+    739  Thickening (Thickened) [Finding]
+    573  Left (Left sided) [Spatial Concept]
+    573  Diaphragm (Entire diaphragm) [Body Part, Organ, or Organ Component]
+Meta Mapping (660):
+    593  Soft Tissue (soft tissue) [Tissue]
+    739  Thickening (Thickened) [Finding]
+    573  Left (Left sided) [Spatial Concept]
+    573  DIAPHRAGM (Respiratory Diaphragm) [Body Part, Organ, or Organ Component]
+Meta Mapping (660):
+    593  Soft Tissue (soft tissue) [Tissue]
+    739  Thickening (Thickened) [Finding]
+    573  Left (Left sided) [Spatial Concept]
+    573  DIAPHRAGM (Vaginal contraceptive diaphragm (device)) [Medical Device]
+Meta Mapping (660):
+    593  Soft Tissue (soft tissue) [Tissue]
+    739  Thickening (Thickened) [Finding]
+    573  left (Table Cell Horizontal Align - left) [Functional Concept]
+    573  Diaphragm (Device Diaphragm Device Component) [Manufactured Object]
+Meta Mapping (660):
+    593  Soft Tissue (soft tissue) [Tissue]
+    739  Thickening (Thickened) [Finding]
+    573  left (Table Cell Horizontal Align - left) [Functional Concept]
+    573  Diaphragm (Entire diaphragm) [Body Part, Organ, or Organ Component]
+Meta Mapping (660):
+    593  Soft Tissue (soft tissue) [Tissue]
+    739  Thickening (Thickened) [Finding]
+    573  left (Table Cell Horizontal Align - left) [Functional Concept]
+    573  DIAPHRAGM (Respiratory Diaphragm) [Body Part, Organ, or Organ Component]
+Meta Mapping (660):
+    593  Soft Tissue (soft tissue) [Tissue]
+    739  Thickening (Thickened) [Finding]
+    573  left (Table Cell Horizontal Align - left) [Functional Concept]
+    573  DIAPHRAGM (Vaginal contraceptive diaphragm (device)) [Medical Device]
+
+Phrase: is
+
+Phrase: stable from the recent exam
+Meta Mapping (696):
+    760  Stable (Patient Condition Code - Stable) [Intellectual Product]
+    593  Recent [Temporal Concept]
+    593  Exam (Medical Examination) [Health Care Activity]
+Meta Mapping (696):
+    760  STABLE (Stable status) [Qualitative Concept]
+    593  Recent [Temporal Concept]
+    593  Exam (Medical Examination) [Health Care Activity]
+
+Phrase: but
+
+Phrase: increased from older studies
+Meta Mapping (722):
+    770  Increased (Increase) [Functional Concept]
+    737  Old [Temporal Concept]
+    770  studies (Scientific Study) [Laboratory Procedure]
+Meta Mapping (722):
+    770  Increased [Quantitative Concept]
+    737  Old [Temporal Concept]
+    770  studies (Scientific Study) [Laboratory Procedure]
+
+Phrase: and
+
+Phrase: suspicious for peritoneal tumor.
+Meta Mapping (783):
+    770  Suspicious (suspicious) [Idea or Concept]
+    666  Peritoneal Tumor (Peritoneal Neoplasms) [Neoplastic Process]
+Processing 6.tx.1: Increase in subtle sclerosis in the superior half of the L2 vertebral body suspicious for metastasis.
+
+Phrase: Increase in subtle sclerosis
+Meta Mapping (709):
+    770  Increase [Functional Concept]
+    532  Subtlety (Subtlety Score) [Clinical Attribute]
+    604  Sclerosis [Pathologic Function]
+
+Phrase: in the superior half of the L2 vertebral body
+Meta Mapping (714):
+    575  In (Present) [Quantitative Concept]
+    575  SUPERIOR (Upper) [Spatial Concept]
+    784  Half of body (half of body) [Body Part, Organ, or Organ Component]
+    575  L2 (L2 innervation) [Body Location or Region]
+    575  Vertebral (Bone structure of spine) [Body Part, Organ, or Organ Component]
+Meta Mapping (714):
+    575  In (Present) [Quantitative Concept]
+    575  SUPERIOR (Upper) [Spatial Concept]
+    784  Half of body (half of body) [Body Part, Organ, or Organ Component]
+    575  L2 (PPFIBP1 gene) [Gene or Genome]
+    575  Vertebral (Bone structure of spine) [Body Part, Organ, or Organ Component]
+Meta Mapping (714):
+    575  In (Present) [Quantitative Concept]
+    575  SUPERIOR (Upper) [Spatial Concept]
+    784  Half of body (half of body) [Body Part, Organ, or Organ Component]
+    575  L2 (PPFIBP1 wt Allele) [Gene or Genome]
+    575  Vertebral (Bone structure of spine) [Body Part, Organ, or Organ Component]
+Meta Mapping (714):
+    575  In (Present) [Quantitative Concept]
+    575  SUPERIOR (Upper) [Spatial Concept]
+    784  Half of body (half of body) [Body Part, Organ, or Organ Component]
+    575  L2 (ZACN gene) [Gene or Genome]
+    575  Vertebral (Bone structure of spine) [Body Part, Organ, or Organ Component]
+Meta Mapping (714):
+    575  In (Within) [Spatial Concept]
+    575  SUPERIOR (Upper) [Spatial Concept]
+    784  Half of body (half of body) [Body Part, Organ, or Organ Component]
+    575  L2 (L2 innervation) [Body Location or Region]
+    575  Vertebral (Bone structure of spine) [Body Part, Organ, or Organ Component]
+Meta Mapping (714):
+    575  In (Within) [Spatial Concept]
+    575  SUPERIOR (Upper) [Spatial Concept]
+    784  Half of body (half of body) [Body Part, Organ, or Organ Component]
+    575  L2 (PPFIBP1 gene) [Gene or Genome]
+    575  Vertebral (Bone structure of spine) [Body Part, Organ, or Organ Component]
+Meta Mapping (714):
+    575  In (Within) [Spatial Concept]
+    575  SUPERIOR (Upper) [Spatial Concept]
+    784  Half of body (half of body) [Body Part, Organ, or Organ Component]
+    575  L2 (PPFIBP1 wt Allele) [Gene or Genome]
+    575  Vertebral (Bone structure of spine) [Body Part, Organ, or Organ Component]
+Meta Mapping (714):
+    575  In (Within) [Spatial Concept]
+    575  SUPERIOR (Upper) [Spatial Concept]
+    784  Half of body (half of body) [Body Part, Organ, or Organ Component]
+    575  L2 (ZACN gene) [Gene or Genome]
+    575  Vertebral (Bone structure of spine) [Body Part, Organ, or Organ Component]
+
+Phrase: suspicious for metastasis.
+Meta Mapping (746):
+    790  Suspicious (suspicious) [Idea or Concept]
+    623  metastasis (Metastatic Neoplasm) [Neoplastic Process]
+Meta Mapping (746):
+    790  Suspicious (suspicious) [Idea or Concept]
+    623  Metastasis (Neoplasm Metastasis) [Neoplastic Process]
+Meta Mapping (746):
+    790  Suspicious (suspicious) [Idea or Concept]
+    623  Metastasis (Secondary Neoplasm) [Neoplastic Process]
+Processing 7.tx.1: No new hepatic lesions identified.
+
+Phrase: No new hepatic lesions
+Meta Mapping (901):
+    660  NEW (New) [Qualitative Concept]
+    901  hepatic lesions (Lesion of liver) [Finding]
+
+Phrase: identified.
+Meta Mapping (1000):
+   1000  Identified (Container status - Identified) [Finding]
+Meta Mapping (1000):
+   1000  Identified [Qualitative Concept]

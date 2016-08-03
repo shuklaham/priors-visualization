@@ -1,0 +1,1 @@
+<type 'list'>: ['/home/shukla/Documents/WMC/backendStuff/MetaMap/public_mm/bin/metamap', '--sldiID', '--silent', 'temp_input']
