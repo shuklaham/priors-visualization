@@ -1,0 +1,14 @@
+[
+    {
+        "accession":"5631711",
+        "sex":"M",
+        "impression_all":"Stable to slightly decreased in size innumerable pulmonary metastases. Resolution of pulmonary effusions. No new nodules. Stable osseous metastases. No new lesions. Status post left nephrectomy without evidence of recurrent or residual disease within the nephrectomy bed.",
+        "technique_all":"CT of the abdomen and pelvis without intravenous contrast Oral contrast : Gastrografin. ",
+        "impression_positive":"14 , -Stable to slightly decreased in size innumerable pulmonary metastases. Resolution of pulmonary effusions. -Stable osseous metastases. -Status post left nephrectomy",
+        "finalized_time":"2016-07-09T07:30:00Z",
+        "patient_history_all":"Abdominal pain. ",
+        "impression_negated":"new nodules. new lesions. evidence of recurrent or residual disease within the nephrectomy bed",
+        "patient_name":"Doe,John",
+        "age":"48"
+    }
+]

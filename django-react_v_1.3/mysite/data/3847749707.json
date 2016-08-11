@@ -1,0 +1,27 @@
+[
+  {
+    "relevant_clinical_info": "_",
+    "technique_negated": "",
+    "patient_history_positive": "",
+    "assessment_negated": "",
+    "impression_all": ["Moderate diverticulosis in the sigmoid descending colon without evidence\nof acute diverticulitis. No free air or abscess is visualized"],
+    "modality": "CT",
+    "findings_all": "\nLiver: Smooth in contour. Several scattered cysts and multiple too small\nto characterize subcentimeter hypoattenuating lesions, probably cysts,\nwithout significant change since 5/23/2000.\n \nBiliary system: Gallbladder unremarkable. No calcified stones. No\nbiliary ductal dilatation.\n \nPancreas: Increased size of a nonspecific pancreatic body cystic lesion,\nmeasuring 3.1 x 1.9 cm, previously 1.2 x 0.6 cm on 5/23/2000.\nAdditionally there is a new 1 cm pancreatic head cystic lesion anterior\nto the common bile duct (series 2, image 49). No pancreatic duct\ndilatation. No peripancreatic fat stranding.\n \nSpleen: Stable benign type calcifications along the superior and\nanterior aspects of the spleen, perhaps related to remote trauma. Normal\nsize spleen.\n \nAdrenal glands: Stable 1.2 cm nodular lesion in the left adrenal gland,\nmeasures less than 10 Hounsfield units on this noncontrast CT, which is\ncompatible with an adrenal adenoma. Additionally there is a stable\nnodular lesion in the right adrenal gland, measures 26 Hounsfield units\non this noncontrast CT; given stability since CT 5/23/2000, this is\ncompatible with a benign lesion such as a lipid poor adrenal adenoma.\n \nKidneys: Multiple bilateral renal cysts. Several punctate nonobstructing\nbilateral renal calculi within the left lower pole and right upper pole.\nNo hydronephrosis. \nUrinary bladder: Foley catheter visualized within the collapsed urinary\nbladder.\nProstate/seminal vesicles: Unremarkable.\n \nBowel: Moderate diverticulosis in the sigmoid and descending colon. No\nevidence of pericolonic inflammation to suggest acute diverticulitis. No\nintra-abdominal fluid collection suggestive of abscess. Normal caliber\nbowel without intestinal obstruction\n \nLymph nodes: No lymphadenopathy.\n \nAbdominal aorta: No aneurysm.\nInferior vena cava: Unremarkable.\n \nPeritoneum: No ascites. No extraluminal air. \n \nAbdominal wall: No hernia.\n \nBones: Multilevel degenerative changes of the spine. No aggressive\nlesion.\nSoft tissues: Unremarkable.\n \nLung bases: Small right pleural effusion. Small patchy nodular left\nlower lobe consolidation suspicious for pneumonia.\n ",
+    "technique_positive": "",
+    "assessment_all": "",
+    "priority": "R",
+    "recommendation_positive": "",
+    "technique_all": "",
+    "impression_positive": ["Moderate diverticulosis in the sigmoid descending colon"],
+    "patient_class": "I",
+    "assessment_positive": "",
+    "recommendation_negated": "",
+    "recommendation_all": "",
+    "service": "CT ABDOMEN AND PELVIS WO CONTRAST",
+    "patient_history_all": "",
+    "patient_history_negated": "",
+    "findings_negated": ["significant change since 5/23/2000", "calcified stones", "biliary ductal dilatation", "pancreatic duct dilatation", "peripancreatic fat stranding", "hydronephrosis", "evidence of pericolonic inflammation to suggest acute diverticulitis", "intra-abdominal fluid collection suggestive of abscess", "intestinal obstruction", "lymphadenopathy", "aneurysm", "ascites", "extraluminal air", "hernia", "aggressive lesion"],
+    "impression_negated": ["evidence of acute diverticulitis. free air or abscess is visualized"],
+    "findings_positive": " Liver : Smooth in contour . Several scattered cysts and multiple too small to characterize subcentimeter hypoattenuating lesions , probably cysts ,', '. Biliary system : Gallbladder unremarkable .', '.', '. Pancreas : Increased size of a nonspecific pancreatic body cystic lesion , measuring 3.1 x 1.9 cm , previously 1.2 x 0.6 cm on 5/23/2000 . Additionally there is a new 1 cm pancreatic head cystic lesion anterior to the common bile duct ( series 2 , image 49 ) .', '.', '. Spleen : Stable benign type calcifications along the superior and anterior aspects of the spleen , perhaps related to remote trauma . Normal size spleen . Adrenal glands : Stable 1.2 cm nodular lesion in the left adrenal gland , measures less than 10 Hounsfield units on this noncontrast CT , which is compatible with an adrenal adenoma . Additionally there is a stable nodular lesion in the right adrenal gland , measures 26 Hounsfield units on this noncontrast CT ; given stability since CT 5/23/2000 , this is compatible with a benign lesion such as a lipid poor adrenal adenoma . Kidneys : Multiple bilateral renal cysts . Several punctate nonobstructing bilateral renal calculi within the left lower pole and right upper pole .', '. Urinary bladder : Foley catheter visualized within the collapsed urinary bladder . Prostate / seminal vesicles : Unremarkable . Bowel : Moderate diverticulosis in the sigmoid and descending colon .', '.', '. Normal caliber bowel', 'Lymph nodes :', '. Abdominal aorta :', '. Inferior vena cava : Unremarkable . Peritoneum :', '.', '. Abdominal wall :', '. Bones : Multilevel degenerative changes of the spine .', '. Soft tissues : Unremarkable . Lung bases : Small right pleural effusion . Small patchy nodular left lower lobe consolidation suspicious for pneumonia . ",
+  }
+]
