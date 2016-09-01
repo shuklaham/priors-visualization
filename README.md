@@ -1,3 +1,3 @@
 # Sunburst application
-[DEMO](http://shuklaham.github.io/visualize-priors/)
+## Demo : [http://shuklaham.github.io/visualize-priors/](http://shuklaham.github.io/visualize-priors/)
 
