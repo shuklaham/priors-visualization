@@ -21,7 +21,7 @@ I was new to whole front-end side of this application. I learnt D3.js and React 
 ## What's next for Sunburst
 Sunburst being an open source project can be further enhanced with prediction capabilities, for example - predicting imaging findings to further enhance workflow and provide additional triage.
 
-## Demo : [http://shuklaham.github.io/visualize-priors/](http://shuklaham.github.io/visualize-priors/)
+## Demo : 
 
 
 ![Alt text](sunburst_app.png?raw=true "Sunburst App")
